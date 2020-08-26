@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主要颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-ff96d8f4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+/* 会员权益 */
+.vip-interests.data-v-ff96d8f4 {
+  width: 100%;
+  height: 300rpx;
+  background-color: #FFFFFF;
+  border-radius: 0 0 20rpx 20rpx;
+}
+.vip-interests .vip-grade.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 4%;
+  height: 100rpx;
+}
+.vip-interests .vip-grade .grade.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.vip-interests .vip-grade .grade text.data-v-ff96d8f4 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #555555;
+}
+.vip-interests .vip-grade .grade .action.data-v-ff96d8f4 {
+  color: #FF9900;
+  margin-left: 10rpx;
+}
+.vip-interests .vip-grade .rule.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.vip-interests .vip-grade .rule text.data-v-ff96d8f4 {
+  font-size: 26rpx;
+  color: #555555;
+}
+.vip-interests .grade-rate.data-v-ff96d8f4 {
+  padding: 0 4%;
+  height: 300rpx;
+}
+.vip-interests .grade-rate .plan.data-v-ff96d8f4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 100rpx;
+}
+.vip-interests .grade-rate .plan .num.data-v-ff96d8f4 {
+  font-size: 26rpx;
+  color: #555555;
+  margin: 0 20rpx;
+}
+.vip-interests .grade-rate .plan .bal.data-v-ff96d8f4 {
+  position: relative;
+  width: 80%;
+  height: 14rpx;
+  background-color: #EEEEEE;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.vip-interests .grade-rate .plan .bal text.data-v-ff96d8f4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #fe3b0f;
+  border-radius: 14rpx;
+}
+.vip-interests .grade-rate .plan .tips.data-v-ff96d8f4 {
+  position: absolute;
+  left: 40%;
+  top: -20rpx;
+  padding: 6rpx 20rpx;
+  background-color: #fe3b0f;
+  border-radius: 8rpx;
+}
+.vip-interests .grade-rate .plan .tips text.data-v-ff96d8f4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+.vip-interests .grade-rate .plan .tips.data-v-ff96d8f4:before {
+  position: absolute;
+  left: 50%;
+  top: 42rpx;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 12rpx;
+  border-style: solid;
+  border-color: #fe3b0f transparent transparent transparent;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.vip-interests .grade-rate .upgrade-prompt.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 6%;
+}
+.vip-interests .grade-rate .upgrade-prompt text.data-v-ff96d8f4 {
+  font-size: 26rpx;
+  color: #222222;
+}
+.vip-interests .grade-rate .upgrade-prompt .action.data-v-ff96d8f4 {
+  color: #FF9900;
+}
+/* 我的会员权益 */
+.my-interests.data-v-ff96d8f4 {
+  width: 100%;
+  margin: 20rpx auto;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+}
+.my-interests .interests-title.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 0 4%;
+  height: 100rpx;
+}
+.my-interests .interests-title text.data-v-ff96d8f4 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.my-interests .interests-list.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 4% 140rpx;
+}
+.my-interests .interests-list .list.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 33%;
+  height: 200rpx;
+}
+.my-interests .interests-list .list .thumb.data-v-ff96d8f4 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #EEEEEE;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.my-interests .interests-list .list .thumb image.data-v-ff96d8f4 {
+  width: 100%;
+  height: 100%;
+}
+.my-interests .interests-list .list .title.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 60rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.my-interests .interests-list .list .describe.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 24rpx;
+  color: #959595;
+}
+/* 开通会员 */
+.dredge-vip.data-v-ff96d8f4 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 200rpx;
+}
+.dredge-vip .vip-win.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 90%;
+  height: 140rpx;
+  background-color: #555555;
+  border-radius: 140rpx;
+  padding: 0 6%;
+}
+.dredge-vip .vip-win .describe.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 70%;
+  height: 100%;
+}
+.dredge-vip .vip-win .describe .title.data-v-ff96d8f4 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #E9E2D2;
+}
+.dredge-vip .vip-win .describe .des.data-v-ff96d8f4 {
+  font-size: 26rpx;
+  color: #E9E2D2;
+  margin-top: 10rpx;
+}
+.dredge-vip .vip-win .btn.data-v-ff96d8f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 140rpx;
+  height: 60rpx;
+  background-color: #fe3b0f;
+  border-radius: 70rpx;
+  box-shadow: 0 0 10rpx #fe3b0f;
+}
+.dredge-vip .vip-win .btn text.data-v-ff96d8f4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+}
+

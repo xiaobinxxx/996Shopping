@@ -1,0 +1,229 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 会员权益 */
+.vip-interests{
+	width: 100%;
+	height: 300rpx;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.vip-grade{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		.grade{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 30rpx;
+				font-weight: bold;
+				color: #555555;
+			}
+			.action{
+				color: #FF9900;
+				margin-left: 10rpx;
+			}
+		}
+		.rule{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 26rpx;
+				color: #555555;
+			}
+		}
+	}
+	.grade-rate{
+		padding: 0 4%;
+		height: 300rpx;
+		.plan{
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100rpx;
+			.num{
+				font-size: 26rpx;
+				color: #555555;
+				margin: 0 20rpx;
+			}
+			.bal{
+				position: relative;
+				width: 80%;
+				height: 14rpx;
+				background-color: #EEEEEE;
+				border-radius: 14rpx;
+				overflow: hidden;
+				text{
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 50%;
+					height: 100%;
+					background-color: $base;
+					border-radius: 14rpx;
+				}
+			}
+			.tips{
+				position: absolute;
+				left: 40%;
+				top: -20rpx;
+				padding: 6rpx 20rpx;
+				background-color: $base;
+				border-radius: 8rpx;
+				text{
+					font-size: 24rpx;
+					color: #FFFFFF;
+				}
+			}
+			.tips:before{
+				position: absolute;
+				left: 50%;
+				top: 42rpx;
+				content: "";
+				width: 0;
+				height: 0;
+				border-width: 12rpx;
+				border-style: solid;
+				border-color:$base transparent transparent transparent;
+				transform: translate(-50%,0);
+			}
+		}
+		.upgrade-prompt{
+			display: flex;
+			align-items: center;
+			padding: 0 6%;
+			text{
+				font-size: 26rpx;
+				color: #222222;
+			}
+			.action{
+				color: #FF9900;
+			}
+		}
+	}
+}
+
+/* 我的会员权益 */
+.my-interests{
+	width: 100%;
+	margin: 20rpx auto;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	.interests-title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 4%;
+		height: 100rpx;
+		text{
+			font-size: 28rpx;
+			font-weight: bold;
+			color: #222222;
+		}
+	}
+	.interests-list{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4% 140rpx;
+		.list{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 33%;
+			height: 200rpx;
+			.thumb{
+				width: 100rpx;
+				height: 100rpx;
+				background-color: #EEEEEE;
+				border-radius: 100%;
+				overflow: hidden;
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.title{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 60rpx;
+				font-size: 28rpx;
+				font-weight: bold;
+				color: #222222;
+			}
+			.describe{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				font-size: 24rpx;
+				color: #959595;
+			}
+		}
+	}
+}
+
+/* 开通会员 */
+.dredge-vip{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200rpx;
+	.vip-win{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 90%;
+		height: 140rpx;
+		background-color: #555555;
+		border-radius: 140rpx;
+		padding: 0 6%;
+		.describe{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 70%;
+			height: 100%;
+			.title{
+				font-size: 30rpx;
+				font-weight: bold;
+				color: #E9E2D2;
+			}
+			.des{
+				font-size: 26rpx;
+				color: #E9E2D2;
+				margin-top: 10rpx;
+			}
+		}
+		.btn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 140rpx;
+			height: 60rpx;
+			background-color: $base;
+			border-radius: 70rpx;
+			box-shadow: 0 0 10rpx $base;
+			text{
+				font-size: 24rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+}

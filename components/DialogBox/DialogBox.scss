@@ -1,0 +1,235 @@
+.page-total{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+/* 文件重命名 */
+.dialog-box{
+	width: 80%;
+	height: 300rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	overflow: hidden;
+	.title{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		font-size: 32rpx;
+		color: #222222;
+		font-weight: bold;
+	}
+	.content{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 90%;
+		height: 80rpx;
+		margin: 0 auto;
+		background-color: #f6f6f6;
+		border-radius: 10rpx;
+		input{
+			width: 80%;
+			height: 100%;
+			font-size: 28rpx;
+			color: #222222;
+			padding: 0 4%;
+		}
+		text{
+			font-size: 34rpx;
+			color: #c0c0c0;
+			margin-right: 4%;
+		}
+	}
+	.inquiry{
+		padding: 0 4%;
+		height: 80rpx;
+		text-align: center;
+		text{
+			font-size: 28rpx;
+			color: #222222;
+			line-height: 40rpx;
+		}
+	}
+	.operation-btn{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		margin-top: 20rpx;
+		border-top: 2rpx solid #f6f6f6;
+		.btn{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 50%;
+			height: 100%;
+			text{
+				font-size: 28rpx;
+				color: #222222;
+			}
+			.tag{
+				position: absolute;
+				right: 0;
+				top: 30%;
+				width: 2rpx;
+				height: 40%;
+				background-color: #f6f6f6;
+			}
+			.activity{
+				color: $base;
+			}
+		}
+	}
+}
+
+
+.a-fadein,
+.a-fadeinT,
+.a-fadeinR,
+.a-fadeinB,
+.a-fadeinL,
+.a-bouncein,
+.a-bounceinT,
+.a-bounceinR,
+.a-bounceinB,
+.a-bounceinL,
+.a-rotatein,
+.a-rotateinLT,
+.a-rotateinLB,
+.a-rotateinRT,
+.a-rotateinRB,
+.a-flipin,
+.a-flipinX,
+.a-flipinY {
+	-webkit-animation: .3s ease-out backwards;
+	-moz-animation: .3s ease-out backwards;
+	-ms-animation: .3s ease-out backwards;
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.a-fadeout,
+.a-fadeoutT,
+.a-fadeoutR,
+.a-fadeoutB,
+.a-fadeoutL,
+.a-bounceout,
+.a-bounceoutT,
+.a-bounceoutR,
+.a-bounceoutB,
+.a-bounceoutL,
+.a-rotateout,
+.a-rotateoutLT,
+.a-rotateoutLB,
+.a-rotateoutRT,
+.a-rotateoutRB,
+.a-flipoutX,
+.a-flipoutY {
+	-webkit-animation: .3s ease-in forwards;
+	-moz-animation: .3s ease-in forwards;
+	-ms-animation: .3s ease-in forwards;
+	animation: .3s ease-in forwards;
+	-moz-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-o-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+/* 淡入 */
+.a-fadein {
+	-webkit-animation-name: fadein;
+	-moz-animation-name: fadein;
+	-ms-animation-name: fadein;
+	animation-name: fadein;
+}
+
+/* 淡出 */
+.a-fadeout {
+	-webkit-animation-name: fadeout;
+	-moz-animation-name: fadeout;
+	-ms-animation-name: fadeout;
+	animation-name: fadeout;
+}
+
+/* 弹入 */
+.a-bouncein {
+	-webkit-animation-name: bouncein;
+	-moz-animation-name: bouncein;
+	-ms-animation-name: bouncein;
+	animation-name: bouncein;
+}
+
+/* 弹出 */
+.a-bounceout {
+	-webkit-animation-name: bounceout;
+	-moz-animation-name: bounceout;
+	-ms-animation-name: bounceout;
+	animation-name: bounceout;
+}
+
+
+/* 淡入 */
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* 淡出 */
+@keyframes fadeout {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+/* 弹入 */
+@keyframes bouncein {
+	0% {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+/* 弹出 */
+@keyframes bounceout {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+}

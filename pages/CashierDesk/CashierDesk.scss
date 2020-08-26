@@ -1,0 +1,128 @@
+.page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 金额倒计时 */
+.price-count-down{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 200rpx;
+	background-color: #FFFFFF;
+	.price{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 80rpx;
+		text{
+			color: $base;
+			font-weight: bold;
+		}
+		.min{
+			font-size: 32rpx;
+		}
+		.max{
+			font-size: 52rpx;
+		}
+	}
+	.count-down{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 60rpx;
+		.title{
+			font-size: 24rpx;
+			color: #222222;
+		}
+		.count{
+			display: flex;
+			align-items: center;
+			margin-left: 20rpx;
+			.time{
+				padding: 4rpx 4rpx;
+				background-color: #EEEEEE;
+				font-size: 24rpx;
+				color: #222222;
+				border-radius: 2rpx;
+			}
+			.dot{
+				margin: 0 10rpx;
+				font-size: 24rpx;
+				color: #222222;
+			}
+		}
+	}
+}
+/* 支付方式 */
+.pay-way{
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 220rpx;
+	.pay-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+			.pay-type{
+				display: flex;
+				align-items: center;
+				image{
+					width: 40rpx;
+					height: 40rpx;
+				}
+				text{
+					font-size: 28rpx;
+					color: #222222;
+					margin-left: 20rpx;
+				}
+			}
+			.check{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 42rpx;
+					color: #C0C0C0;
+				}
+				.action{
+					color: $base;
+				}
+			}
+		}
+	}
+}
+
+/* 支付提交 */
+.pay-submit{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	.submit{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70%;
+		background-color: $base;
+		color: #FFFFFF;
+		border-radius: 100rpx;
+		font-size: 26rpx;
+	}
+}

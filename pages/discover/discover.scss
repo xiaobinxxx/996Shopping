@@ -1,0 +1,124 @@
+.page{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-bottom: 100rpx;
+	background-color: #f6f6f6;
+}
+/* 文章搜索 */
+.article-search{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+	/* #ifdef APP-PLUS */
+	height: 170rpx;
+	/* #endif */
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.icon{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 10%;
+		height: 100%;
+		text{
+			color: #333333;
+			font-size: 52rpx;
+		}
+	}
+	.search{
+		display: flex;
+		align-items: center;
+		padding: 0 3%;
+		width: 90%;
+		height: 60rpx;
+		background-color: #f6f6f6;
+		border-radius: 60rpx;
+		/* #ifdef APP-PLUS */
+		margin-top: 20rpx;
+		/* #endif */
+		.iconfont{
+			font-size: 28rpx;
+			color: #C0C0C0;
+		}
+		input{
+			width: 90%;
+			height: 100%;
+			color: #212121;
+			font-size: 24rpx;
+			margin-left: 10rpx;
+		}
+	}
+}
+/* 文章数据  */
+.article-data{
+	width: 100%;
+	margin-top: 120rpx;
+	/* #ifdef APP-PLUS */
+	margin-top: 190rpx;
+	/* #endif */
+	.article-list{
+		padding: 0 4%;
+		margin: 20rpx auto;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 300rpx;
+			background-color: #FFFFFF;
+			border-radius: 20rpx;
+			margin-bottom: 20rpx;
+			.item{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				width: 70%;
+				height: 100%;
+				padding: 0 4%;
+				.title{
+					display: flex;
+					padding:20rpx;
+					text{
+						color: #212121;
+						font-size: 28rpx;
+					}
+				}
+				.find-collect{
+					display: flex;
+					align-items: center;
+					padding: 0 20rpx;
+					height: 80rpx;
+					.find{
+						display: flex;
+						align-items: center;
+						margin-right: 20rpx;
+						.iconfont{
+							font-size: 34rpx;
+							margin-right: 10rpx;
+						}
+						text{
+							color: #C0C0C0;
+							font-size: 28rpx;
+						}
+					}
+				}
+			}
+			.thumb{
+				padding: 20rpx;
+				image{
+					width: 200rpx;
+					height: 200rpx;
+				}
+			}
+		}
+	}
+}

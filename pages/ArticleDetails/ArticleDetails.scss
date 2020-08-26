@@ -1,0 +1,381 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+/* banner */
+.banner{
+	width: 100%;
+	.screen-swiper{
+		width: 100%;
+		height: 400rpx;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+/* 文章数据 */
+.article-data{
+	padding: 0 4%;
+	margin: 20rpx auto;
+	.article-title{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		text{
+			font-size: 32rpx;
+			font-weight: bold;
+			color: #222222;
+		}
+	}
+	.article-content{
+		width: 100%;
+		text{
+			font-size: 28rpx;
+			color: #555555;
+		}
+	}
+}
+
+/* 猜你喜欢 */
+.guess-like{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-top: 10rpx solid #f6f6f6;
+	.guess-like-title{
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 80rpx;
+		text{
+			font-size: 30rpx;
+			color: #222222;
+		}
+		.line{
+			position: absolute;
+			left: 15rpx;
+			top: 50%;
+			width: 7rpx;
+			height: 30rpx;
+			background-color: $base;
+			border-radius: 20rpx;
+			transform: translate(0,-50%);
+		}
+	}
+	.article-list{
+		padding: 0 4%;
+		.box-wrapper {
+			-moz-column-count:2;
+			/* Firefox */
+		  -webkit-column-count:2;
+			/* Safari 和 Chrome */
+		  column-count:2;
+			-moz-column-gap:0.5em;
+			-webkit-column-gap:0.5em;
+			column-gap:0.5em;
+		}
+		 .list {
+			margin-top:1em;
+			-moz-page-break-inside:avoid;
+			-webkit-column-break-inside:avoid;
+			break-inside:avoid;
+			box-shadow: 0 0 20rpx rgba(0,0,0,0.3);
+			border-radius: 20rpx;
+			overflow: hidden;
+			.thumb{
+				width: 100%;
+				image{
+					width: 100%;
+				}
+			}
+			.title{
+				padding: 20rpx;
+				text{
+					font-size: 28rpx;
+					color: #222222;
+				}
+			}
+			.like{
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				padding: 0 20rpx;
+				height: 60rpx;
+				text{
+					font-size: 24rpx;
+					color: #222222;
+				}
+				.iconfont{
+					color: #C0C0C0;
+					font-size: 32rpx;
+					margin-right: 10rpx;
+				}
+			}
+		}
+	}
+}
+
+/* 底部 */
+.article-footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 120rpx;
+	padding: 0 4%;
+	.footer-left{
+		display: flex;
+		width: 30%;
+		height: 80rpx;
+		background-color: rgba(0,0,0,0.5);
+		border-radius: 80rpx;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 50%;
+			height: 100%;
+			text{
+				font-size: 38rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+	.footer-right{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 40%;
+		height: 80rpx;
+		background-color: rgba(0,0,0,0.5);
+		border-radius: 80rpx;
+		text{
+			font-size: 28rpx;
+			color: #FFFFFF;
+		}
+	}
+}
+
+/* 评论弹窗 */
+.comment-win{
+	.cu-dialog{
+		width: 100%;
+		height: 70%;
+		border-radius: 20rpx 20rpx 0 0 !important;
+		.comment-title{
+			display: flex;
+			align-items: center;
+			padding: 0 4%;
+			height: 100rpx;
+			.title{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 28rpx;
+					font-weight: bold;
+					color: #222222;
+				}
+				.iconfont{
+					font-size: 34rpx;
+					color: $base;
+					margin-right: 10rpx;
+				}
+			}
+		}
+		.comment-list{
+			padding: 0 4%;
+			height: 80%;
+			padding-bottom: 50rpx;
+			overflow: auto;
+			.list{
+				display: flex;
+				width: 100%;
+				margin-bottom: 20rpx;
+				.portrait{
+					width: 15%;
+					height: 100%;
+					image{
+						width: 60rpx;
+						height: 60rpx;
+						border-radius: 100%;
+					}
+				}
+				.item{
+					width: 85%;
+					height: 100%;
+					.title{
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						width: 100%;
+						height: 100rpx;
+						.name-date{
+							display: flex;
+							flex-direction: column;
+	
+							height: 100%;
+							.name{
+								font-size: 26rpx;
+								font-weight: bold;
+								color: #222222;
+							}
+							.date{
+								font-size: 24rpx;
+								color: #959595;
+							}
+						}
+						.praise{
+							display: flex;
+							align-items: center;
+							text{
+								font-size: 28rpx;
+								color: #C0C0C0;
+							}
+							.iconfont{
+								font-size: 32rpx;
+								margin-left: 10rpx;
+							}
+						}
+					}
+					.content{
+						width: 100%;
+						padding: 10rpx 0;
+						text{
+							font-size: 28rpx;
+							color: #959595;
+						}
+					}
+				}
+			}
+		}
+		.comment-input{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 100rpx;
+			background-color: #FFFFFF;
+			padding: 0 4%;
+			.comment{
+				display: flex;
+				align-items: center;
+				width: 80%;
+				height: 60rpx;
+				background-color: #EEEEEE;
+				border-radius: 60rpx;
+				input{
+					width: 100%;
+					height: 100%;
+					color: #222222;
+					font-size: 26rpx;
+				}
+			}
+			.send{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 20%;
+				height: 60rpx;
+				text{
+					color: $base;
+					font-size: 30rpx;
+				}
+			}
+		}
+	}
+}
+
+.goods-win{
+	.cu-dialog{
+		width: 100%;
+		height: 70%;
+		border-radius: 20rpx 20rpx 0 0 !important;
+	}
+	.goods-title{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 100rpx;
+		.title{
+			font-size: 28rpx;
+			color: #222222;
+		}
+	}
+	.goods-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 200rpx;
+			background-color: #FFFFFF;
+			box-shadow: 0 0 20rpx #f6f6f6;
+			border-radius: 10rpx;
+			overflow: hidden;
+			margin-bottom: 20rpx;
+			.thumb{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 30%;
+				height: 200rpx;
+				image{
+					width: 170rpx;
+					height: 170rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.item{
+				width: 70%;
+				height: 100%;
+				.title{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 100rpx;
+					text{
+						color: #222222;
+						font-size: 26rpx;
+						text-align: left;
+					}
+				}
+				.price-look{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 100%;
+					height: 100rpx;
+					.price{
+						font-size: 32rpx;
+						color: $base;
+					}
+					.look{
+						display: flex;
+						align-items: center;
+						margin-right: 20rpx;
+						text{
+							padding: 4rpx 10rpx;
+							border: 2rpx solid #555555;
+							color: #555555;
+							font-size: 24rpx;
+							border-radius: 60rpx;
+						}
+					}
+				}
+			}
+		}
+	}
+}

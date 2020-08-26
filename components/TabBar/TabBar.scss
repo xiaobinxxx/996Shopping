@@ -1,0 +1,35 @@
+.page-total{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		// height: 100rpx;
+	}
+	.tab-list{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		background-color: #FFFFFF;
+		.list{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 20%;
+			height: 100rpx;
+			image{
+				width: 48rpx;
+				height: 48rpx;
+			}
+			text{
+				color: #333333;
+				font-size: 24rpx;
+				margin-top: 10rpx;
+			}
+			.action{
+				color: $base;
+			}
+		}
+	}

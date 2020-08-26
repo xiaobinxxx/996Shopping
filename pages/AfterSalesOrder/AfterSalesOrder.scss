@@ -1,0 +1,289 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 订单tab */
+.order-tab{
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef H5 */
+	top: 88rpx;
+	/* #endif */
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	.tab{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 205%;
+		height: 80%;
+		text{
+			font-size: 26rpx;
+			color: #959595;
+		}
+	}
+	.action{
+		text{
+			color: #222222;
+		}
+		.line{
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			width: 60rpx;
+			height: 6rpx;
+			background: linear-gradient(to right,$base,#f6f6f6);
+			transform: translate(-50%,0);
+		}
+	}
+}
+
+/* 售后申请 */
+.order-search{
+	display: flex;
+	align-items: center;
+	padding: 0 4%;
+	height: 80rpx;
+	background-color: #FFFFFF;
+	margin-top: 100rpx;
+	.search{
+		display: flex;
+		align-items: center;
+		width: 90%;
+		height: 60rpx;
+		background-color: #f6f6f6;
+		border-radius: 70rpx;
+		padding: 0 20rpx;
+		text{
+			font-size: 32rpx;
+			color: #555555;
+		}
+		input{
+			width: 90%;
+			height: 100%;
+			font-size: 26rpx;
+			color: #555555;
+			margin-left: 3%;
+		}
+	}
+	.filtrate{
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		width: 10%;
+		height: 100%;
+		text{
+			font-size: 26rpx;
+			color: #959595;
+		}
+	}
+}
+
+/* 订单列表 */
+.order-list{
+	width: 100%;
+	margin: 20rpx auto;
+	.list{
+		padding: 20rpx 4%;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		margin-bottom: 20rpx;
+		.order-number{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 60rpx;
+			.number{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 26rpx;
+					color: #959595;
+				}
+			}
+			.type{
+				display: flex;
+				align-items: center;
+				image{
+					width: 34rpx;
+					height: 34rpx;
+				}
+				text{
+					font-size: 26rpx;
+					font-weight: bold;
+					color: #222222;
+					margin-left: 10rpx;
+				}
+			}
+		}
+		.goods-list{
+			width: 100%;
+			height: 200rpx;
+			.list{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 200rpx;
+				.thumb{
+					display: flex;
+					align-items: center;
+					width: 30%;
+					height: 100%;
+					image{
+						width: 160rpx;
+						height: 160rpx;
+					}
+				}
+				.item{
+					width: 70%;
+					height: 100%;
+					.title{
+						display: flex;
+						align-items: center;
+						width: 100%;
+						height: 120rpx;
+						text{
+							color: #222222;
+							font-size: 26rpx;
+						}
+					}
+					.num{
+						display: flex;
+						width: 100%;
+						text{
+							color: #959595;
+							font-size: 26rpx;
+						}
+					}
+				}
+			}
+		}
+		.order-status{
+			display: flex;
+			align-items: center;
+			padding: 0 4%;
+			height: 100rpx;
+			background-color: #f6f6f6;
+			border-radius: 20rpx;
+			text{
+				font-size: 28rpx;
+				color: #959595;
+			}
+			text:nth-child(1){
+				color: #222222;
+				margin-right: 20rpx;
+			}
+		}
+		.order-btn{
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			width: 100%;
+			height: 100rpx;
+			background-color: #FFFFFF;
+			text{
+				padding: 10rpx 30rpx;
+				font-size: 26rpx;
+				color: #959595;
+				border: 2rpx solid #EEEEEE;
+				border-radius: 100rpx;
+			}
+			.action{
+				border: 2rpx solid $base;
+				color: $base;
+			}
+		}
+	}
+}
+
+/* 筛选弹窗 */
+.filtrate-win{
+	.cu-dialog{
+		top:0;
+		height:calc(100vh);
+		flex-basis: 90% !important;
+		background-color: #FFFFFF;
+		// 下单时间
+		.order-time{
+			padding: 0 4%;
+			.title{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 100rpx;
+				text{
+					font-size: 28rpx;
+					color: #222222;
+				}
+			}
+			.time-list{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				width: 100%;
+				.list{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 48%;
+					height: 60rpx;
+					background-color: #f6f6f6;
+					border: 2rpx solid #FFFFFF;
+					border-radius: 60rpx;
+					margin-bottom: 20rpx;
+					text{
+						font-size: 26rpx;
+						color: #222222;
+					}
+				}
+				.action{
+					background-color: $rgba-02;
+					border: 2rpx solid $base;
+					text{
+						color: $base;
+					}
+				}
+			}
+		}
+		// 按钮
+		.footer-btn{
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 100rpx;
+			border-top: 2rpx solid #f6f6f6;
+			.btn{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 50%;
+				height: 100%;
+				text{
+					font-size: 28rpx;
+					color: #555555;
+				}
+			}
+			.action{
+				background: linear-gradient(to right,$base,$change-clor);
+				text{
+					color: #FFFFFF;
+				}
+			}
+		}
+	}
+}

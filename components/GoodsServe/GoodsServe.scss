@@ -1,0 +1,59 @@
+.page-total {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.dialog{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 600rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx 20rpx 0 0;
+	margin-bottom: -1000rpx;
+	transition: all 0.3s ease-in-out;
+	.serve-list{
+		padding: 0 4%;
+		.list{
+			width: 100%;
+			.title{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 80rpx;
+				text{
+					font-size: 26rpx;
+					color: #212121;
+					font-weight: bold;
+				}
+			}
+			.title:before{
+				display: inline-block;
+				content: "";
+				width: 14rpx;
+				height: 14rpx;
+				background-color: #212121;
+				border-radius: 100%;
+				margin-right: 20rpx;
+			}
+			.content{
+				display: flex;
+				padding: 10rpx 0;
+				text{
+					font-size: 24rpx;
+					color: #555555;
+				}
+			}
+		}
+	}
+}
+.show{
+	margin-bottom: 0;
+}

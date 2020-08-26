@@ -1,0 +1,157 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+.head-back{
+	position: relative;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100rpx;
+	background: linear-gradient(to right,#00b6a5,#00ccba);
+	/* #ifdef APP-PLUS */
+	height: 150rpx;
+	/* #endif */
+	/* #ifdef MP */
+	height: 150rpx;
+	/* #endif */
+	.back{
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100rpx;
+		height: 100%;
+		text{
+			display: flex;
+			width: 20rpx;
+			height: 20rpx;
+			border-left: 2rpx solid #FFFFFF;
+			border-bottom: 2rpx solid #FFFFFF;
+			transform: rotate(45deg);
+		}
+	}
+	.title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		image{
+			width: 200rpx;
+			height: 50rpx;
+		}
+	}
+}
+
+.head-bg{
+	width: 100%;
+	height: 300rpx;
+	background: linear-gradient(to right,#00b6a5,#00ccba);
+	border-radius: 0 0 20% 20%;
+	padding-top: 100rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: 150rpx;
+	/* #endif */
+	/* #ifdef MP */
+	padding-top: 150rpx;
+	/* #endif */
+	// banner
+	.banner{
+		width: 90%;
+		height: 300rpx;
+		border-radius: 10rpx;
+		overflow: hidden;
+		margin:20rpx auto;
+		.screen-swiper{
+			min-height: 100% !important;
+		}
+	}
+}
+
+.goods-data{
+	width: 100%;
+	margin-top: 160rpx;
+	/* #ifdef APP-PLUS */
+	margin-top: 200rpx;
+	/* #endif */
+	/* #ifdef MP */
+	margin-top: 200rpx;
+	/* #endif */
+	.goods-list{
+		width: 94%;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		.list{
+			display: flex;
+			align-items: center;
+			padding: 0 20rpx;
+			height: 300rpx;
+			margin-bottom: 20rpx;
+			.thumb{
+				display: flex;
+				align-items: center;
+				width: 40%;
+				height: 100%;
+				image{
+					width: 260rpx;
+					height: 260rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.item{
+				width: 56%;
+				height: 260rpx;
+				margin-left: 4%;
+				.title{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 100rpx;
+					text{
+						font-size: 28rpx;
+						color: #222222;
+					}
+				}
+				.introduce{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					text{
+						font-size: 24rpx;
+						color: #c0c0c0;
+					}
+				}
+				.like-goods{
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					width: 100%;
+					height: 100rpx;
+					.like{
+						display: flex;
+						align-items: center;
+						text{
+							font-size: 26rpx;
+							font-weight: bold;
+							color: $base;
+						}
+						.iconfont{
+							margin-left: 10rpx;
+						}
+					}
+				}
+			}
+		}
+	}
+}

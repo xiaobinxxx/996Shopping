@@ -1,0 +1,175 @@
+.page-total {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	// background: rgba(0,0,0,0.3);
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/* 优惠券 */
+.cu-dialog{
+	width: 100%;
+	height: 70%;
+	border-radius: 30rpx 30rpx 0 0 !important;
+	overflow: hidden;
+	.modal-title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 80rpx;
+		text{
+			font-size: 26rpx;
+			color: #212121;
+		}
+	}
+	.tips{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 60rpx;
+		color: #212121;
+		font-size: 24rpx;
+	}
+	.coupon-list{
+		padding: 0 4%;
+		margin: 10rpx auto;
+		.list{
+			position: relative;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 200rpx;
+			box-shadow: 0 0 14rpx rgba(0,0,0,0.1);
+			border-radius: 6rpx;
+			margin-bottom: 20rpx;
+			overflow: hidden;
+			.coupon-price{
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				width: 30%;
+				height: 100%;
+				background-color: $base;
+				.discounts{
+					display: flex;
+					justify-content: center;
+					align-items: flex-end;
+					width: 100%;
+					.min{
+						color: #FFFFFF;
+						font-size: 32rpx;
+						font-weight: bold;
+					}
+					.max{
+						font-size: 48rpx;
+						color: #FFFFFF;
+						font-weight: bold;
+					}
+				}
+				.full-reduction{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 60rpx;
+					text{
+						font-size: 24rpx;
+						color: #FFFFFF;
+					}
+				}
+				.jag{
+					position: absolute;
+					top: 0;
+					left: -6rpx;
+					width: 6px;
+					height: 100%;
+					background-size: 10px 6px;
+					background-color: #fff;
+					background-position: 100% 35%;
+					background-image: linear-gradient(-45deg, $base 25%, transparent 25%, transparent), 
+													linear-gradient(-135deg, $base 25%, transparent 25%, transparent), 
+													linear-gradient(-45deg, transparent 75%, $base 75%), 
+													linear-gradient(-135deg, transparent 75%, $base 75%);
+				}
+			}
+			.coupon-info{
+				width: 70%;
+				height: 90%;
+				padding: 0 4%;
+				.info-title{
+					display: flex;
+					width: 100%;
+					height: 100rpx;
+					.tag{
+						margin-right: 10rpx;
+						text{
+							padding: 4rpx 16rpx;
+							color: #FFFFFF;
+							background-color: $base;
+							font-size: 24rpx;
+							border-radius: 40rpx;
+						}
+					}
+					.title{
+						text{
+							font-size: 24rpx;
+							color: #212121;
+						}
+					}
+				}
+				.date-get{
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 100%;
+					height: 80rpx;
+					.date{
+						display: flex;
+						align-items: center;
+						text{
+							font-size: 24rpx;
+							color: #555555;
+						}
+					}
+					.get{
+						text{
+							padding: 10rpx 20rpx;
+							background-color: $base;
+							color: #FFFFFF;
+							font-size: 24rpx;
+							border-radius: 100rpx;
+						}
+						.use{
+							background-color: transparent;
+							border: 1px solid $base;
+							color: $base;
+						}
+					}
+				}
+			}
+			.use-status{
+				position: absolute;
+				right: -20rpx;
+				top: -25rpx;
+				z-index: 10;
+				width: 100rpx;
+				height: 100rpx;
+				border: 2rpx solid #C0C0C0;
+				border-radius: 100%;
+				text{
+					display: inline-block;
+					color: #C0C0C0;
+					font-size: 24rpx;
+					transform: rotate(45deg);
+					margin-top: 40rpx;
+				}
+			}
+		}
+	}
+}

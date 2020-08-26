@@ -1,0 +1,57 @@
+.page{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 用户信息列表 */
+.user-list{
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin: 20rpx auto;
+	.list{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 100rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		.title{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 28rpx;
+				color: #222222;
+			}
+		}
+		.more-content{
+			display: flex;
+			align-items: center;
+			image{
+				width: 100rpx;
+				height: 100rpx;
+				border-radius: 100%;
+			}
+			.content{
+				font-size: 28rpx;
+				color: #959595;
+			}
+			.more{
+				font-size: 24rpx;
+				color: #959595;
+				margin-left: 20rpx;
+			}
+		}
+		.picker{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+		}
+	}
+}

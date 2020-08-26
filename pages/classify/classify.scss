@@ -1,0 +1,154 @@
+page{
+	background-color: #FFFFFF;
+}
+.page{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-bottom: 100rpx;
+	background-color: #FFFFFF;
+}
+/* 搜索 */
+.search-index{
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* #ifdef APP-PLUS */
+	top: 80rpx;
+	/* #endif */
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	.icon{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		width: 10%;
+		height: 100%;
+		text{
+			color: #333333;
+			font-size: 52rpx;
+		}
+	}
+	.search{
+		display: flex;
+		align-items: center;
+		padding: 0 3%;
+		width: 75%;
+		height: 60rpx;
+		background-color: #f6f6f6;
+		border-radius: 60rpx;
+		.iconfont{
+			font-size: 28rpx;
+			color: #C0C0C0;
+		}
+		input{
+			width: 90%;
+			height: 100%;
+			color: #212121;
+			font-size: 24rpx;
+			margin-left: 10rpx;
+		}
+	}
+}
+/* 分类数据 */
+.classify-data{
+	display: flex;
+	width: 100%;
+	height: 90%;
+	background-color: #FFFFFF;
+	margin-top: 100rpx;
+	/* #ifdef APP-PLUS */
+	margin-top: 170rpx;
+	/* #endif */
+	.classify-one{
+		width: 25%;
+		height: 100%;
+		background-color: #f6f6f6;
+		.classify-list{
+			width: 100%;
+			height: 100%;
+			.list{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 80rpx;
+				text{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 100%;
+					color: #C0C0C0;
+					font-size: 26rpx;
+					box-sizing: border-box;
+				}
+			}
+			.action{
+				background-color: #FFFFFF;
+				text{
+					font-size: 28rpx;
+					color: #212121;
+					border-left: 6rpx solid $base;
+					box-sizing: border-box;
+				}
+			}
+		}
+	}
+	.classify-two-three{
+		width: 70%;
+		height: 100%;
+		padding-left: 5%;
+		.scroll{
+			width: 100%;
+			height: 100%;
+			.classify-two{
+				width: 100%;
+				.two-name{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+					height: 80rpx;
+					.name{
+						font-size: 26rpx;
+						color: #212121;
+					}
+				}
+			}
+			.classify-three{
+				display: flex;
+				flex-wrap: wrap;
+				width: 100%;
+				.list{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 32%;
+					height: 140rpx;
+					margin-right: 2%;
+					image{
+						width: 80rpx;
+						height: 80rpx;
+					}
+					text{
+						color: #212121;
+						font-size: 24rpx;
+						margin-top: 10rpx;
+					}
+				}
+				.list:nth-child(3n){
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.pay-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 200rpx;
+	text{
+		font-size: 28rpx;
+		color: #555555;
+	}
+}
+
+.pay-password{
+	display: flex;
+	align-items: center;
+	width: 90%;
+	height: 80rpx;
+	margin: 20rpx auto;
+	border: 2rpx solid $base;
+	.list{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 16.666%;
+		height: 100%;
+		border-right: 2rpx solid #EEEEEE;
+		text{
+			font-size: 32rpx;
+		}
+	}
+	.list:nth-child(6){
+		border-right: none;
+	}
+}
+
+.hint{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	text{
+		font-size: 28rpx;
+		color: $base;
+	}
+}

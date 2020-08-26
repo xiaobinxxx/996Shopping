@@ -1,0 +1,106 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/discover/discover",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/SearchGoodsList/SearchGoodsList",
+    "pages/search/search",
+    "pages/GoodsDetails/GoodsDetails",
+    "pages/ConfirmOrder/ConfirmOrder",
+    "pages/CashierDesk/CashierDesk",
+    "pages/PayResult/PayResult",
+    "pages/FlashSale/FlashSale",
+    "pages/GoodChoice/GoodChoice",
+    "pages/ArticleDetails/ArticleDetails",
+    "pages/GoodsOn/GoodsOn",
+    "pages/ContentCollection/ContentCollection",
+    "pages/BrowsingHistory/BrowsingHistory",
+    "pages/MyOrderList/MyOrderList",
+    "pages/OrderDetails/OrderDetails",
+    "pages/AfterSaleType/AfterSaleType",
+    "pages/ReturnDetails/ReturnDetails",
+    "pages/IntegralDetails/IntegralDetails",
+    "pages/ExchangeDetails/ExchangeDetails",
+    "pages/ExchangeResult/ExchangeResult",
+    "pages/ExchangeRecord/ExchangeRecord",
+    "pages/IntegralRecord/IntegralRecord",
+    "pages/MyCoupon/MyCoupon",
+    "pages/MyWallet/MyWallet",
+    "pages/ConsumeRecord/ConsumeRecord",
+    "pages/SignIn/SignIn",
+    "pages/PaymentCode/PaymentCode",
+    "pages/Feedback/Feedback",
+    "pages/AfterSalesOrder/AfterSalesOrder",
+    "pages/Setting/Setting",
+    "pages/Information/Information",
+    "pages/AddressList/AddressList",
+    "pages/AddressEdit/AddressEdit",
+    "pages/AccountSecurity/AccountSecurity",
+    "pages/AccountAssociated/AccountAssociated",
+    "pages/ChangePassword/ChangePassword",
+    "pages/ModifyPhone/ModifyPhone",
+    "pages/AssociatedmMailbox/AssociatedmMailbox",
+    "pages/PaymentPassword/PaymentPassword",
+    "pages/PaymentEdit/PaymentEdit",
+    "pages/PaymentForget/PaymentForget",
+    "pages/InvoiceList/InvoiceList",
+    "pages/InvoiceAdd/InvoiceAdd",
+    "pages/MembersOpened/MembersOpened",
+    "pages/MyMemberInterest/MyMemberInterest",
+    "pages/SettingCommon/SettingCommon",
+    "pages/AboutUs/AboutUs",
+    "pages/Message/Message",
+    "pages/DiscountsActivity/DiscountsActivity",
+    "pages/NotificationMessage/NotificationMessage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#f23030",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/static/tabBar/tab_01.png",
+        "selectedIconPath": "/static/tabBar/tab_02.png",
+        "pagePath": "pages/home/home",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab_03.png",
+        "selectedIconPath": "/static/tabBar/tab_04.png",
+        "pagePath": "pages/classify/classify",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab_05.png",
+        "selectedIconPath": "/static/tabBar/tab_06.png",
+        "pagePath": "pages/discover/discover",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab_07.png",
+        "selectedIconPath": "/static/tabBar/tab_08.png",
+        "pagePath": "pages/cart/cart",
+        "text": ""
+      },
+      {
+        "iconPath": "/static/tabBar/tab_09.png",
+        "selectedIconPath": "/static/tabBar/tab_10.png",
+        "pagePath": "pages/my/my",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox"
+  },
+  "sitemapLocation": "sitemap83.json"
+}

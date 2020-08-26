@@ -1,0 +1,126 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.head-bg{
+	position: relative;
+	width: 100%;
+	height: 300rpx;
+	background: linear-gradient($base,$change-clor);
+	.head-user{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		.user{
+			display: flex;
+			align-items: center;
+			image{
+				width: 70rpx;
+				height: 70rpx;
+				border-radius: 100%;
+			}
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+				margin-left: 20rpx;
+			}
+		}
+		.exchange{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+	.wallet-balance{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 200rpx;
+		.wallet{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text{
+				font-size: 30rpx;
+				color: #FFFFFF;
+			}
+			.number{
+				font-size: 60rpx;
+				margin-top: 10rpx;
+				// font-weight: bold;
+			}
+		}
+	}
+	.bg{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 40rpx;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+/* 记录列表 */
+.record-list{
+	width: 100%;
+	background-color: #FFFFFF;
+	.list{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 140rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		.title-date{
+			width: 70%;
+			height: 100%;
+			.title{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60rpx;
+				text{
+					font-size: 28rpx;
+					font-weight: bold;
+					color: #222222;
+				}
+			}
+			.date{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60rpx;
+				text{
+					font-size: 24rpx;
+					color: #959595;
+				}
+			}
+		}
+		.integral{
+			display: flex;
+			align-items: center;
+			height: 100%;
+			text{
+				font-size: 28rpx;
+				font-weight: bold;
+				color: $base;
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加发票信息",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox"
+  }
+}

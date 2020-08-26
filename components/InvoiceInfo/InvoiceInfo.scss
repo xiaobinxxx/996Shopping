@@ -1,0 +1,150 @@
+.cu-dialog {
+	width: 100%;
+	height: 80%;
+	border-radius: 20rpx 20rpx 0 0 !important;
+	.invoice-title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		.title {
+			font-size: 32rpx;
+			color: #222222;
+			font-weight: bold;
+		}
+		.notice {
+			font-size: 26rpx;
+			color: #555555;
+		}
+	}
+	.invoice-data{
+		height: 90%;
+		overflow: auto;
+		padding-bottom: 100rpx;
+		.invoice-type {
+			padding: 0 4%;
+			.title {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60rpx;
+				font-size: 26rpx;
+				color: #222222;
+			}
+			.type-list {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 100rpx;
+				.list {
+					padding: 10rpx 20rpx;
+					background-color: #eeeeee;
+					border: 2rpx solid transparent;
+					border-radius: 100rpx;
+					margin-right: 20rpx;
+					text {
+						font-size: 24rpx;
+						color: #222222;
+					}
+				}
+				.action {
+					background-color: $rgba-03;
+					border-color: $base;
+					text {
+						color: $base;
+					}
+				}
+			}
+		}
+		.invoice-rise {
+			padding: 0 4%;
+			.title {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60rpx;
+				font-size: 26rpx;
+				color: #222222;
+			}
+			.type-list {
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 100rpx;
+				.list {
+					padding: 10rpx 20rpx;
+					background-color: #eeeeee;
+					border: 2rpx solid transparent;
+					border-radius: 100rpx;
+					margin-right: 20rpx;
+					text {
+						font-size: 24rpx;
+						color: #222222;
+					}
+				}
+				.action {
+					background-color: $rgba-03;
+					border-color: $base;
+					text {
+						color: $base;
+					}
+				}
+			}
+			.invoice-input{
+				width: 100%;
+				.list{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 80rpx;
+					text{
+						font-size: 26rpx;
+						color: #555555;
+					}
+					input{
+						margin-left: 20rpx;
+						font-size: 26rpx;
+						color: #222222;
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
+	// 确认
+	.footer-Affirm{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 100rpx;
+		background-color: #FFFFFF;
+		padding: 0 4%;
+		.no-invoice{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 30%;
+			height: 70%;
+			border: 2rpx solid #959595;
+			border-radius: 100rpx;
+			font-size: 26rpx;
+			color: #959595;
+		}
+		.Affirm-invoice{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 60%;
+			height: 70%;
+			border-radius: 100rpx;
+			font-size: 26rpx;
+			color: #FFFFFF;
+			background-color: $base;
+		}
+	}
+}

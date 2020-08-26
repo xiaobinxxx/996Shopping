@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "设置",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox"
+  }
+}

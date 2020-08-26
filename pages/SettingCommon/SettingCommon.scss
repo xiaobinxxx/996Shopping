@@ -1,0 +1,48 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+.common-list{
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	.list{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 80rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		.title{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 26rpx;
+				color: #222222;
+			}
+		}
+		.more{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 26rpx;
+				color: #666666;
+				margin-left: 10rpx;
+			}
+		}
+		.switch-setting{
+			display: flex;
+			align-items: center;
+			
+		}
+	}
+}
+
+.common-list:first-child{
+	border-radius: 0 0 20rpx 20rpx;
+}

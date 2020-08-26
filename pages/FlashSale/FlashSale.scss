@@ -1,0 +1,244 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+.head-back{
+	position: relative;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100rpx;
+	/* #ifdef APP-PLUS */
+	height: 150rpx;
+	/* #endif */
+	/* #ifdef MP */
+	height: 150rpx;
+	/* #endif */
+	background: linear-gradient(to right,$base,$change-clor);
+	.back{
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100rpx;
+		height: 100%;
+		text{
+			display: flex;
+			width: 20rpx;
+			height: 20rpx;
+			border-left: 2rpx solid #FFFFFF;
+			border-bottom: 2rpx solid #FFFFFF;
+			transform: rotate(45deg);
+		}
+	}
+	.title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		image{
+			width: 200rpx;
+			height: 50rpx;
+		}
+	}
+}
+
+.head-bg{
+	width: 100%;
+	height: 300rpx;
+	background: linear-gradient(to right,$base,$change-clor);
+	border-radius: 0 0 20% 20%;
+	padding-top: 100rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: 150rpx;
+	/* #endif */
+	/* #ifdef MP */
+	padding-top: 150rpx;
+	/* #endif */
+	.session{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		.list{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 20%;
+			height: 100%;
+			.time{
+				font-size: 32rpx;
+				font-weight: bold;
+				color: #ff9aa9;
+			}
+			.status{
+				font-size: 24rpx;
+				color: #ff9aa9;
+			}
+		}
+		.action{
+			.time{
+				color: #FFFFFF;
+			}
+			.status{
+				color: #FFFFFF
+			}
+		}
+	}
+	.activity{
+		position: fixed;
+		left: 0;
+		top: 100rpx;
+		/* #ifdef APP-PLUS */
+		top: 150rpx;
+		/* #endif */
+		/* #ifdef MP */
+		top: 150rpx;
+		/* #endif */
+		z-index: 100;
+		background-color: #FFFFFF;
+		.list{
+			.time{
+				font-size: 32rpx;
+				font-weight: bold;
+				color: #222222;
+			}
+			.status{
+				font-size: 24rpx;
+				color: #222222;
+			}
+		}
+		.action{
+			.time{
+				color: $base;
+			}
+			.status{
+				color: $base;
+			}
+		}
+	}
+}
+
+.goods-list{
+	padding: 0 4%;
+	margin: 20rpx auto;
+	.list{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 200rpx;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		margin-bottom: 20rpx;
+		.thumb{
+			display: flex;
+			align-items: center;
+			width: 30%;
+			height: 100%;
+			image{
+				width: 160rpx;
+				height: 160rpx;
+				border-radius: 10rpx;
+			}
+		}
+		.item{
+			width: 70%;
+			height: 100%;
+			.title{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 60rpx;
+				text{
+					font-size: 26rpx;
+					color: #222222;
+				}
+			}
+			.price-data{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				height: 140rpx;
+				.price{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					width: 40%;
+					height: 100%;
+					text{
+						color: $base;
+						font-size: 32rpx;
+						font-weight: bold;
+					}
+					.lineation{
+						font-size: 24rpx;
+						color: #959595;
+						font-weight: normal;
+						text-decoration: line-through;
+					}
+				}
+				.data{
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: flex-end;
+					width: 60%;
+					height: 100%;
+					.btn{
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 160rpx;
+						height: 60rpx;
+						background:linear-gradient(to right,$base,$change-clor);
+						border-radius: 70rpx;
+						font-size: 26rpx;
+						color: #FFFFFF;
+					}
+					.schedule{
+						display: flex;
+						align-items: center;
+						width: 100%;
+						height: 40rpx;
+						.num{
+							font-size: 24rpx;
+							color: #959595;
+						}
+						.bar{
+							width: 160rpx;
+							height: 12rpx;
+							border: 2rpx solid $rgba-05;
+							border-radius: 10rpx;
+							margin-left: 10rpx;
+							text{
+								display: flex;
+								width: 50%;
+								height: 100%;
+								background-color: $rgba-05;
+								animation: bar 1s linear;
+							}
+							@keyframes bar{
+								0%{
+									width: 0;
+								}
+								100%{
+									width: 50%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

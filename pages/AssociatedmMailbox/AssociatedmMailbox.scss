@@ -1,0 +1,106 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+.code-get{
+	width: 100%;
+	height: 400rpx;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.phone{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 100rpx;
+		text{
+			font-size: 28rpx;
+			color: #222222;
+		}
+		input{
+			width: 70%;
+			height: 100%;
+			color: #222222;
+			font-size: 28rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+		}
+	}
+	.code{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		input{
+			width: 70%;
+			height: 100%;
+			color: #222222;
+			font-size: 28rpx;
+		}
+		text{
+			font-size: 28rpx;
+			color: #222222;
+		}
+	}
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		margin: 40rpx auto;
+		background: linear-gradient(to right,$base,$change-clor);
+		border-radius: 70rpx;
+		box-shadow: 0 10rpx 10rpx $base;
+		text{
+			color: #FFFFFF;
+			font-size: 28rpx;
+		}
+	}
+}
+
+.setting-password{
+	width: 100%;
+	height: 200rpx;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.inpu-password{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 100rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		text{
+			color: #959595;
+			font-size: 28rpx;
+		}
+		input{
+			margin-left: 20rpx;
+			color: #222222;
+			font-size: 28rpx;
+		}
+		.icon{
+			margin-left: 20rpx;
+		}
+	}
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		margin: 0rpx auto;
+		background: linear-gradient(to right,$base,$change-clor);
+		border-radius: 70rpx;
+		box-shadow: 0 10rpx 10rpx $base;
+		text{
+			color: #FFFFFF;
+			font-size: 28rpx;
+		}
+	}
+}

@@ -1,0 +1,228 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 商品 */
+.goods-data{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.goods-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 200rpx;
+			.thumb{
+				display: flex;
+				align-items: center;
+				width: 30%;
+				height: 100%;
+				image{
+					width: 160rpx;
+					height: 160rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.item{
+				width: 70%;
+				height: 100%;
+				.title{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 100rpx;
+					text{
+						font-size: 26rpx;
+						color: #c0c0c0;
+					}
+				}
+				.price-num{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 80rpx;
+					.price{
+						display: flex;
+						align-items: center;
+						text{
+							font-size: 24rpx;
+							color: #C0C0C0;
+						}
+						.action{
+							color: #222222;
+							font-weight: bold;
+						}
+					}
+					.num{
+						display: flex;
+						align-items: center;
+						margin-left: 20rpx;
+						text{
+							font-size: 24rpx;
+							color: #C0C0C0;
+						}
+						.action{
+							color: #222222;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 申请数据 */
+.apply-data{
+	width: 100%;
+	margin: 20rpx auto;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	overflow: hidden;
+	.apply-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+			.title{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 26rpx;
+					color: #959595;
+				}
+			}
+			.more{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 26rpx;
+					font-weight: bold;
+					color: #222222;
+				}
+				.iconfont{
+					margin-left: 20rpx;
+				}
+				input{
+					font-size: 26rpx;
+					color: #222222;
+					text-align: right;
+				}
+			}
+		}
+		.describe{
+			padding: 20rpx;
+			height: 200rpx;
+			background-color: #f6f6f6;
+			margin-bottom: 20rpx;
+			textarea{
+				width: 100%;
+				height: 100%;
+				font-size: 26rpx;
+				background-color: #f6f6f6;
+			}
+		}
+		.voucher{
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			width: 100%;
+			height: 200rpx;
+			.thumb{
+				position: relative;
+				width: 25%;
+				height: 160rpx;
+				image{
+					width: 160rpx;
+					height: 160rpx;
+				}
+				text{
+					position: absolute;
+					right: 0rpx;
+					top: -20rpx;
+					font-size: 38rpx;
+					background-color: #FFFFFF;
+					border-radius: 100%;
+				}
+			}
+		}
+	}
+}
+
+/* 提交 */
+.submit-btn{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		font-size: 28rpx;
+		color: #FFFFFF;
+		background: linear-gradient($base,$change-clor);
+		border-radius: 100rpx;
+	}
+}
+
+/* 申请原因弹窗 */
+.apply-cause-win{
+	.cu-dialog{
+		width: 100%;
+		height: 60%;
+		border-radius: 20rpx 20rpx 0 0 !important;
+		.title{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100rpx;
+			font-size: 28rpx;
+			font-weight: bold;
+		}
+		.cause-list{
+			padding: 0 4%;
+			height: 90%;
+			overflow: auto;
+			.list{
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+				height: 100rpx;
+				.cause{
+					display: flex;
+					align-items: center;
+					font-size: 28rpx;
+					color: #222222;
+				}
+				.check{
+					display: flex;
+					align-items: center;
+					text{
+						font-size: 34rpx;
+						color: #959595;
+					}
+				}
+			}
+		}
+	}
+}

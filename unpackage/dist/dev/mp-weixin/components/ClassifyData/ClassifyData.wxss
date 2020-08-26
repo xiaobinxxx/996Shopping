@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主要颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-total {
+  position: absolute;
+  left: 0;
+  top: 200rpx;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+  padding-bottom: 120rpx;
+}
+.classify-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 10rpx 25rpx;
+  background-color: #ffffff;
+  border-radius: 0 0 20rpx 20rpx;
+  margin: 20rpx auto;
+}
+.classify-list .list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 20%;
+  height: 150rpx;
+}
+.classify-list .list .thumb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 70%;
+}
+.classify-list .list .thumb image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.classify-list .list .name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 30%;
+}
+.classify-list .list .name text {
+  color: #212121;
+  font-size: 26rpx;
+}
+.super-hot-style {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+}
+.super-hot-style .hot-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 4%;
+  height: 80rpx;
+}
+.super-hot-style .hot-title .iconfont {
+  font-size: 38rpx;
+  color: #fe3b0f;
+}
+.super-hot-style .hot-title .title {
+  font-size: 30rpx;
+  color: #212121;
+  margin-left: 10rpx;
+}
+.super-hot-style .goods-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 4%;
+  padding-bottom: 20rpx;
+}
+.super-hot-style .goods-list .list {
+  width: 32%;
+  margin-right: 2%;
+}
+.super-hot-style .goods-list .list .thumb {
+  width: 100%;
+}
+.super-hot-style .goods-list .list .thumb image {
+  width: 100%;
+}
+.super-hot-style .goods-list .list .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  padding: 10rpx 0;
+}
+.super-hot-style .goods-list .list .title text {
+  color: #212121;
+  font-size: 26rpx;
+}
+.super-hot-style .goods-list .list .price {
+  padding: 10rpx 0;
+}
+.super-hot-style .goods-list .list .price .sales-volume {
+  font-size: 24rpx;
+  color: #c0c0c0;
+  margin-top: 5rpx;
+}
+.super-hot-style .goods-list .list .price .retail-price {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.super-hot-style .goods-list .list .price .retail-price .min {
+  display: inline-block;
+  font-size: 24rpx;
+  color: #FF0000;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.super-hot-style .goods-list .list .price .retail-price,
+.super-hot-style .goods-list .list .price .retail-price .max {
+  font-size: 26rpx;
+  color: #FF0000;
+  font-weight: bold;
+}
+.super-hot-style .goods-list .list .price .vip-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.super-hot-style .goods-list .list .price .vip-price .min {
+  display: inline-block;
+  font-size: 24rpx;
+  color: #212121;
+}
+.super-hot-style .goods-list .list .price .vip-price,
+.super-hot-style .goods-list .list .price .vip-price .max {
+  font-size: 24rpx;
+  color: #212121;
+  font-weight: bold;
+  margin-right: 10rpx;
+}
+.super-hot-style .goods-list .list:nth-child(3n) {
+  margin-right: 0;
+}
+.more-hot {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.more-hot .hot-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 100rpx;
+}
+.more-hot .hot-title .title {
+  font-size: 32rpx;
+  color: #fe3b0f;
+}
+.more-hot .hot-title .title .icon {
+  margin: 0 20rpx;
+}
+.more-hot .goods-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 30rpx;
+}
+.more-hot .goods-list .list {
+  width: 49%;
+  height: 540rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.more-hot .goods-list .list .pictrue {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+}
+.more-hot .goods-list .list .pictrue image {
+  height: 350rpx;
+}
+.more-hot .goods-list .list .title-tag {
+  height: 100rpx;
+  padding: 20rpx;
+}
+.more-hot .goods-list .list .title-tag .tag {
+  float: left;
+  margin-right: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+.more-hot .goods-list .list .title-tag .tag text {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  padding: 4rpx 16rpx;
+  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
+  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  border-radius: 6rpx;
+  margin-right: 10rpx;
+}
+.more-hot .goods-list .list .price-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 20rpx;
+  height: 80rpx;
+}
+.more-hot .goods-list .list .price-info .user-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.more-hot .goods-list .list .price-info .user-price text {
+  color: #FF0000;
+}
+.more-hot .goods-list .list .price-info .user-price .min {
+  font-size: 24rpx;
+}
+.more-hot .goods-list .list .price-info .user-price .max {
+  font-size: 32rpx;
+}
+.more-hot .goods-list .list .price-info .vip-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.more-hot .goods-list .list .price-info .vip-price image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.more-hot .goods-list .list .price-info .vip-price text {
+  color: #fcb735;
+  font-size: 24rpx;
+}
+

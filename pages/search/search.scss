@@ -1,0 +1,150 @@
+.page {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+/* 搜索 */
+.search-head {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100rpx;
+	z-index: 10;
+	/* #ifdef APP-PLUS */
+	height: 200rpx;
+	/* #endif */
+	/* #ifdef MP */
+	height: 260rpx;
+	padding-top: 60rpx;
+	/* #endif */
+	background-color: #ffffff;
+	border-bottom: 2rpx solid #f6f6f6;
+	.back {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 10%;
+		height: 100%;
+		text {
+			width: 20rpx;
+			height: 20rpx;
+			border-left: 2rpx solid #555555;
+			border-bottom: 2rpx solid #555555;
+			transform: rotate(45deg);
+		}
+	}
+	.search {
+		display: flex;
+		align-items: center;
+		width: 76%;
+		height: 60rpx;
+		background-color: #f6f6f6;
+		border-radius: 60rpx;
+		padding: 0 4%;
+		text {
+			font-size: 34rpx;
+			color: #c0c0c0;
+		}
+		input {
+			width: 90%;
+			height: 100%;
+			font-size: 26rpx;
+			color: #212121;
+			margin-left: 10rpx;
+		}
+	}
+	.btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 10%;
+		height: 100%;
+		text {
+			font-size: 28rpx;
+			color: #555555;
+		}
+	}
+}
+/* 搜索记录 */
+.search-record{
+	padding: 0 4%;
+	margin-top: 100rpx;
+	/* #ifdef APP-PLUS */
+	margin-top: 200rpx;
+	/* #endif */
+	/* #ifdef MP */
+	margin-top: 270rpx;
+	/* #endif */
+	background-color: #FFFFFF;
+	border-bottom: 2rpx solid #f6f6f6;
+	.search-title{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 80rpx;
+		.title{
+			font-size: 28rpx;
+			color: #212121;
+		}
+		.iconfont{
+			font-size: 38rpx;
+		}
+	}
+	.record-list{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		.list{
+			padding: 10rpx 20rpx;
+			margin-right: 20rpx;
+			margin-bottom: 20rpx;
+			background-color: #f6f6f6;
+			border-radius: 60rpx;
+			text{
+				color: #555555;
+				font-size: 24rpx;
+			}
+		}
+	}
+}
+.search-found{
+	padding: 0 4%;
+	margin-top: 100rpx;
+	background-color: #FFFFFF;
+	.search-title{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 80rpx;
+		.title{
+			font-size: 28rpx;
+			color: #212121;
+		}
+		.iconfont{
+			font-size: 38rpx;
+		}
+	}
+	.found-list{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 48%;
+			height: 80rpx;
+			text{
+				color: #555555;
+				font-size: 26rpx;
+			}
+		}
+	}
+}

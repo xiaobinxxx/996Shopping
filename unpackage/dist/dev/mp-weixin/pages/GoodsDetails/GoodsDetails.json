@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "goods-serve": "/components/GoodsServe/GoodsServe",
+    "goods-coupon": "/components/GoodsCoupon/GoodsCoupon",
+    "goods-attr": "/components/GoodsAttr/GoodsAttr"
+  }
+}

@@ -1,0 +1,89 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+/* 发票列表 */
+.invoice-list{
+	padding: 0 4%;
+	margin-top: 20rpx;
+	padding-bottom: 120rpx;
+	.list{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 140rpx;
+		background-color: #FFFFFF;
+		border-radius: 20rpx;
+		margin-bottom: 20rpx;
+		box-shadow: 0 0 10rpx #F1F1F1;
+		.content{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 80%;
+			height: 100%;
+			.title{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				text{
+					font-size: 28rpx;
+					color: #222222;
+				}
+			}
+			.identify-num{
+				display: flex;
+				align-items: center;
+				width: 100%;
+				margin-top: 20rpx;
+				text{
+					font-size: 26rpx;
+					color: #959595;
+				}
+			}
+		}
+		.edit{
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			width: 20%;
+			height: 100%;
+			text{
+				font-size: 38rpx;
+				color: #959595;
+			}
+		}
+	}
+}
+
+/* 添加按钮 */
+.add-btn{
+	position: fixed;
+	left: 0;
+	bottom: 20rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		background: linear-gradient(to right,$base,$change-clor);
+		box-shadow: 0 10rpx 10rpx $base;
+		border-radius: 70rpx;
+		text{
+			font-size: 28rpx;
+			color: #FFFFFF;
+			margin-left: 10rpx;
+		}
+	}
+}

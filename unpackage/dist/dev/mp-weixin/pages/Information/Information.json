@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox"
+  }
+}

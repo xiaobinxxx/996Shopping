@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "invoice-info": "/components/InvoiceInfo/InvoiceInfo",
+    "use-coupon": "/components/UseCoupon/UseCoupon"
+  }
+}

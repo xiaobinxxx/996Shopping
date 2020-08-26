@@ -1,0 +1,556 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主要颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-0f00adf4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 100rpx;
+  background-color: #f7f7f7;
+}
+.head.data-v-0f00adf4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 80rpx;
+
+
+
+  background-color: #FFFFFF;
+}
+.head .title.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+  font-size: 30rpx;
+  color: #212121;
+}
+.head .edit.data-v-0f00adf4 {
+  position: absolute;
+  right: 20rpx;
+  top: 50%;
+
+
+
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.head .edit text.data-v-0f00adf4 {
+  color: #212121;
+  font-size: 26rpx;
+}
+/* 购物车列表 */
+.cart-list.data-v-0f00adf4 {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 20rpx 0;
+  margin-top: 100rpx;
+}
+.cart-list .list.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 3%;
+  height: 240rpx;
+  margin-bottom: 20rpx;
+}
+.cart-list .list .check.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 10%;
+  height: 100%;
+}
+.cart-list .list .check text.data-v-0f00adf4 {
+  font-size: 36rpx;
+  color: #333333;
+}
+.cart-list .list .check .icon-checked.data-v-0f00adf4 {
+  color: #fe3b0f;
+}
+.cart-list .list .goods.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 90%;
+  height: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20rpx #f6f6f6;
+  border-radius: 10rpx;
+}
+.cart-list .list .goods .thumb.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+.cart-list .list .goods .thumb image.data-v-0f00adf4 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+}
+.cart-list .list .goods .item.data-v-0f00adf4 {
+  padding: 10rpx 0;
+  width: 70%;
+  height: 100%;
+}
+.cart-list .list .goods .item .title.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100%;
+  height: 80rpx;
+}
+.cart-list .list .goods .item .title text.data-v-0f00adf4 {
+  font-size: 26rpx;
+  color: #212121;
+}
+.cart-list .list .goods .item .attribute.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 10rpx;
+}
+.cart-list .list .goods .item .attribute .attr.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 20rpx;
+  height: 40rpx;
+  background-color: #f6f6f6;
+  border-radius: 10rpx;
+}
+.cart-list .list .goods .item .attribute .attr text.data-v-0f00adf4 {
+  font-size: 24rpx;
+  color: #333333;
+}
+.cart-list .list .goods .item .attribute .attr .more.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 10rpx;
+  height: 10rpx;
+  border-left: 2rpx solid #333333;
+  border-bottom: 2rpx solid #333333;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: 10rpx;
+}
+.cart-list .list .goods .item .price-num.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 80rpx;
+}
+.cart-list .list .goods .item .price-num .price.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.cart-list .list .goods .item .price-num .price .min.data-v-0f00adf4 {
+  color: #fe3b0f;
+  font-size: 24rpx;
+}
+.cart-list .list .goods .item .price-num .price .max.data-v-0f00adf4 {
+  font-size: 28rpx;
+  color: #fe3b0f;
+  font-weight: bold;
+}
+.cart-list .list .goods .item .price-num .num.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 200rpx;
+  height: 40rpx;
+}
+.cart-list .list .goods .item .price-num .num .add.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 40rpx;
+  height: 40rpx;
+  background-color: #FFFFFF;
+}
+.cart-list .list .goods .item .price-num .num .add text.data-v-0f00adf4 {
+  color: #212121;
+  font-size: 24rpx;
+}
+.cart-list .list .goods .item .price-num .num .number.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 120rpx;
+  height: 40rpx;
+  background-color: #f6f6f6;
+  border-radius: 8rpx;
+}
+.cart-list .list .goods .item .price-num .num .number text.data-v-0f00adf4 {
+  font-size: 24rpx;
+  color: #212121;
+}
+/* 为你推荐 */
+.recommend-info.data-v-0f00adf4 {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.recommend-info .recommend-title.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 100rpx;
+}
+.recommend-info .recommend-title .title.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.recommend-info .recommend-title .title image.data-v-0f00adf4 {
+  width: 416rpx;
+  height: 40rpx;
+}
+.recommend-info .goods-list.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 30rpx;
+}
+.recommend-info .goods-list .list.data-v-0f00adf4 {
+  width: 49%;
+  height: 540rpx;
+  margin-bottom: 20rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.recommend-info .goods-list .list .pictrue.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+}
+.recommend-info .goods-list .list .pictrue image.data-v-0f00adf4 {
+  height: 350rpx;
+}
+.recommend-info .goods-list .list .title-tag.data-v-0f00adf4 {
+  height: 100rpx;
+  padding: 20rpx;
+}
+.recommend-info .goods-list .list .title-tag .tag.data-v-0f00adf4 {
+  float: left;
+  margin-right: 10rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+.recommend-info .goods-list .list .title-tag .tag text.data-v-0f00adf4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  padding: 4rpx 16rpx;
+  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
+  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  border-radius: 6rpx;
+  margin-right: 10rpx;
+}
+.recommend-info .goods-list .list .price-info.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 20rpx;
+  height: 80rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.recommend-info .goods-list .list .price-info .user-price text.data-v-0f00adf4 {
+  color: #FF0000;
+}
+.recommend-info .goods-list .list .price-info .user-price .min.data-v-0f00adf4 {
+  font-size: 24rpx;
+}
+.recommend-info .goods-list .list .price-info .user-price .max.data-v-0f00adf4 {
+  font-size: 32rpx;
+}
+.recommend-info .goods-list .list .price-info .vip-price.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.recommend-info .goods-list .list .price-info .vip-price image.data-v-0f00adf4 {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.recommend-info .goods-list .list .price-info .vip-price text.data-v-0f00adf4 {
+  color: #fcb735;
+  font-size: 24rpx;
+}
+/* 结算 */
+.close-account.data-v-0f00adf4 {
+  position: fixed;
+  left: 0;
+  bottom: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  border-top: 2rpx solid #f6f6f6;
+}
+.close-account .check-total.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.close-account .check-total .check.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 40%;
+  height: 100%;
+}
+.close-account .check-total .check text.data-v-0f00adf4 {
+  font-size: 36rpx;
+  color: #333333;
+}
+.close-account .check-total .check .icon-checked.data-v-0f00adf4 {
+  color: #fe3b0f;
+}
+.close-account .check-total .check .all.data-v-0f00adf4 {
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+.close-account .check-total .total.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 60%;
+  height: 100%;
+}
+.close-account .check-total .total text.data-v-0f00adf4 {
+  font-size: 24rpx;
+  color: #333333;
+}
+.close-account .check-total .total .price.data-v-0f00adf4 {
+  font-weight: bold;
+  color: #fe3b0f;
+}
+.close-account .account.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  width: 46%;
+  padding-right: 4%;
+}
+.close-account .account .btn-calculate.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 160rpx;
+  height: 60rpx;
+  background-color: #fe3b0f;
+  border-radius: 60rpx;
+}
+.close-account .account .btn-calculate text.data-v-0f00adf4 {
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.close-account .account .btn-del.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.close-account .account .btn-del .attention.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 140rpx;
+  height: 60rpx;
+  border: 2rpx solid #EEEEEE;
+  border-radius: 60rpx;
+  color: #333333;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+}
+.close-account .account .btn-del .del.data-v-0f00adf4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 100rpx;
+  height: 60rpx;
+  background-color: #fe3b0f;
+  border-radius: 60rpx;
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+

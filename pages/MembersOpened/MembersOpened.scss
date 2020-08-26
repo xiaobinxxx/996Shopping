@@ -1,0 +1,136 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 背景 */
+.head-bg{
+	width: 100%;
+	height: 600rpx;
+	background-color: $base;
+	border-radius: 0 0 20% 20%;
+	.vip-title{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100rpx;
+		padding-top: 30rpx;
+		text{
+			font-size: 42rpx;
+			color: #FFFFFF;
+		}
+	}
+	.vip-describe{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text{
+			font-size: 48rpx;
+			font-weight: bold;
+			color: #FFFFFF;
+		}
+	}
+}
+
+/* 会员权益 */
+.vip-interests{
+	position: relative;
+	width: 90%;
+	margin: -400rpx auto 0;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	padding: 20rpx 0;
+	.interests-list{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4%;
+		.list{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 33%;
+			height: 200rpx;
+			.thumb{
+				width: 100rpx;
+				height: 100rpx;
+				background-color: #EEEEEE;
+				border-radius: 100%;
+				overflow: hidden;
+				image{
+					width: 100%;
+					height: 100%;
+				}
+			}
+			.title{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				height: 60rpx;
+				font-size: 28rpx;
+				font-weight: bold;
+				color: #222222;
+			}
+			.describe{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				font-size: 24rpx;
+				color: #959595;
+			}
+		}
+	}
+	//
+	.vip-tips{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 80rpx;
+		text{
+			font-size: 26rpx;
+			color: #959595;
+		}
+		.price{
+			color: $base;
+		}
+	}
+	//
+	.dredge-btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		height: 70rpx;
+		background-color: $base;
+		border-radius: 70px;
+		margin: 10px auto;
+		text{
+			font-size: 28rpx;
+			font-weight: bold;
+			color: #FFFFFF;
+		}
+	}
+	.exchange-btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		height: 70rpx;
+		border: 2rpx solid $base;
+		border-radius: 70px;
+		margin: 10px auto;
+		text{
+			font-size: 28rpx;
+			font-weight: bold;
+			color: $base;
+		}
+	}
+}

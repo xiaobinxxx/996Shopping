@@ -1,0 +1,319 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+
+.head-bg{
+	position: relative;
+	width: 100%;
+	height: 460rpx;
+	background: linear-gradient($base,$change-clor);
+	.head-user{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 100rpx;
+		.user{
+			display: flex;
+			align-items: center;
+			image{
+				width: 70rpx;
+				height: 70rpx;
+				border-radius: 100%;
+			}
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+				margin-left: 20rpx;
+			}
+		}
+		.exchange{
+			display: flex;
+			align-items: center;
+			text{
+				font-size: 28rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+	.integral-balance{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 240rpx;
+		.integral{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text{
+				font-size: 30rpx;
+				color: #FFFFFF;
+			}
+			.number{
+				font-size: 60rpx;
+				margin-top: 10rpx;
+				// font-weight: bold;
+			}
+			.btn{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 260rpx;
+				height: 70rpx;
+				background-color: #FFFFFF;
+				color: $base;
+				font-size: 26rpx;
+				border-radius: 80rpx;
+				margin-top: 30rpx;
+			}
+			.action{
+				background-color: #f6f6f6;
+				color: #959595;
+			}
+		}
+	}
+	.bg{
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 40rpx;
+		image{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+
+/* 签到 */
+.Signin-data{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	.signin-title{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 100rpx;
+		.title{
+			display: flex;
+			align-items: center;
+			text{
+				color: #222222;
+				font-size: 28rpx;
+				font-weight: bold;
+			}
+		}
+	}
+	.day-list{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 200rpx;
+		.list{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 14%;
+			height: 100%;
+			.circle{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 60rpx;
+				height: 60rpx;
+				background-color: #EEEEEE;
+				border-radius: 100%;
+				text{
+					font-size: 24rpx;
+					color: #959595;
+				}
+			}
+			.day{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-top: 20rpx;
+				text{
+					font-size: 26rpx;
+					color: #555555;
+				}
+			}
+		}
+		.action{
+			.circle{
+				background: $rgba-03;
+				text{
+					color: $base;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+/* 邀请新人 */
+.invitation-data{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin: 20rpx auto;
+	padding-bottom: 20rpx;
+	.invitation-title{
+		display: flex;
+		align-items: center;
+		padding: 04%;
+		height: 100rpx;
+		.title{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			text{
+				color: #222222;
+				font-size: 28rpx;
+			}
+		}
+	}
+	.invitation-show{
+		display: flex;
+		align-items: center;
+		width: 94%;
+		height: 160rpx;
+		margin: 20rpx auto;
+		background-color: #FFFFFF;
+		box-shadow: 0 0 10rpx rgba(0,0,0,0.1);
+		border-radius: 20rpx;
+		padding-top: 10rpx;
+		.icon{
+			display: flex;
+			justify-content: center;
+			width: 15%;
+			height: 80%;
+			text{
+				font-size: 48rpx;
+				color: #0077EE;
+			}
+		}
+		.item{
+			width: 85%;
+			height: 80%;
+			padding-right: 20rpx;
+			.title-btn{
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				height: 80rpx;
+				.title{
+				display: flex;
+				.bt{
+						color: #222222;
+						font-size: 30rpx;
+						font-weight: bold;
+					}
+					.ji{
+						font-size: 26rpx;
+						color: $base;
+						margin-left: 10rpx;
+					}
+				}
+				.btn{
+					display:flex;
+					align-items: center;
+					justify-content: center;
+					width: 180rpx;
+					height: 50rpx;
+					background: linear-gradient(to right,$base,$change-clor);
+					border-radius: 60rpx;
+					box-shadow: 0 10rpx 10rpx $base;
+					text{
+						color: #FFFFFF;
+						font-size: 24rpx;
+					}
+				}
+			}
+			.describe{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 24rpx;
+					color: #959595;
+				}
+			}
+		}
+	}
+}
+
+
+/* 签到弹窗 */
+.sigin-hint{
+	.sigin-content{
+		width: 100%;
+		height: 500rpx;
+		background-color: #FFFFFF;
+		.icon{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 200rpx;
+			text{
+				color: $base;
+				font-size: 160rpx;
+			}
+		}
+		.title{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 100rpx;
+			view{
+				font-size: 30rpx;
+				font-weight: bold;
+				text{
+					color: $base;
+				}
+			}
+		}
+		.btn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 80%;
+			height: 60rpx;
+			background: linear-gradient(to right,$base,$change-clor);
+			border-radius: 60rpx;
+			box-shadow: 0 10rpx 10rpx $base;
+			margin: 40rpx auto 0;
+			text{
+				font-size: 26rpx;
+				color: #FFFFFF;
+			}
+		}
+	}
+}
+
+
+/* 规则说明弹窗*/
+.rule-win{
+	.rule-content{
+		padding: 20rpx 4%;
+		text-align: left;
+		text{
+			font-size: 26rpx;
+			color: #555555;
+			text-align: left;
+			line-height: 50rpx;
+		}
+	}
+}

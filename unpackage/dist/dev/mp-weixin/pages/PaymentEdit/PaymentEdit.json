@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "修改支付密码",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "code-keyboard": "/components/CodeKeyboard/CodeKeyboard"
+  }
+}

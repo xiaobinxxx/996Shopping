@@ -1,0 +1,303 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 订单状态 */
+.order-status{
+	width: 100%;
+	height: 200rpx;
+	background: linear-gradient(to right,$base,$change-clor);
+	.status{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100rpx;
+		text{
+			font-size: 38rpx;
+			// font-weight: bold;
+			color: #FFFFFF;
+		}
+		.iconfont{
+			margin-right: 20rpx;
+		}
+	}
+	.reason{
+		display: flex;
+		// align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 80rpx;
+		text{
+			font-size: 28rpx;
+			color: #f6f6f6;
+		}
+	}
+}
+
+/* 收货地址 */
+.shipping-address{
+	width: 100%;
+	height: 200rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin: -20rpx auto 20rpx;
+	.name-phone{
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 80rpx;
+		text{
+			font-size: 28rpx;
+			font-weight: bold;
+			color: #222222;
+			margin-right: 20rpx;
+		}
+	}
+	.address{
+		display: flex;
+		padding: 0 4%;
+		height: 100rpx;
+		margin-left: 50rpx;
+		text{
+			font-size: 26rpx;
+			color: #959595;
+		}
+	}
+}
+
+/* 订单商品 */
+.order-goods{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	.goods-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			min-height: 200rpx;
+			.thumb{
+				display: flex;
+				width: 30%;
+				height: 200rpx;
+				margin-top: -20rpx;
+				image{
+					width: 160rpx;
+					height: 160rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.item{
+				width: 70%;
+				height: 100%;
+				.title{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 60rpx;
+					text{
+						font-size: 26rpx;
+						color: #222222;
+					}
+				}
+				.num-size{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 60rpx;
+					text{
+						font-size: 26rpx;
+						color: #959595;
+						margin-right: 20rpx;
+					}
+					text:last-child{
+						margin-right: 0;
+					}
+				}
+				.price{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 60rpx;
+					text{
+						font-size: 28rpx;
+						font-weight: bold;
+						color: #222222;
+					}
+				}
+				.order-btn{
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					width: 100%;
+					height: 100rpx;
+					.btn{
+						padding: 10rpx 30rpx;
+						color: #555555;
+						font-size: 26rpx;
+						border: 2rpx solid #EEEEEE;
+						border-radius: 100rpx;
+					}
+				}.order-btn{
+					display: flex;
+					align-items: center;
+					justify-content: flex-end;
+					width: 100%;
+					height: 100rpx;
+					.btn{
+						padding: 10rpx 30rpx;
+						color: #555555;
+						font-size: 26rpx;
+						border: 2rpx solid #EEEEEE;
+						border-radius: 100rpx;
+					}
+				}
+			}
+		}
+	}
+	.contact{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		background-color: #FFFFFF;
+		box-shadow: 0 0 20rpx #EEEEEE;
+		border-radius: 0 0 20rpx 20rpx;
+		text{
+			font-size: 28rpx;
+			color: #555555;
+		}
+		.iconfont{
+			font-size: 34rpx;
+			margin-right: 20rpx;
+		}
+	}
+}
+
+/* 订单信息 */
+.order-info{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin: 20rpx auto;
+	.info-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 100rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+			.title{
+				font-size: 26rpx;
+				color: #959595;
+			}
+			.content{
+				display: flex;
+				align-items: center;
+				margin-left: 20rpx;
+				text{
+					font-size: 26rpx;
+					font-weight: bold;
+					color: #222222;
+				}
+				.btn{
+					padding: 6rpx 20rpx;
+					background-color: #EEEEEE;
+					color: #555555;
+					font-size: 24rpx;
+					border-radius: 50rpx;
+					margin-left: 40rpx;
+				}
+			}
+		}
+	}
+}
+
+/* 订单明细 */
+.order-details{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin: 20rpx auto;
+	padding-bottom: 100rpx;
+	.details-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+			.title{
+				font-size: 26rpx;
+				color: #959595;
+			}
+			.price{
+				font-size: 26rpx;
+				font-weight: bold;
+			}
+		}
+		.action{
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			.price{
+				font-size: 32rpx;
+				font-weight: bold;
+				color: $base;
+			}
+		}
+	}
+}
+
+.footer-btn{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	border-top: 2rpx solid #EEEEEE;
+	padding: 0 4%;
+	.del{
+		display: flex;
+		align-items: center;
+		text{
+			padding: 10rpx 30rpx;
+			font-size: 24rpx;
+			font-weight: bold;
+		}
+	}
+	.btn{
+		display: flex;
+		align-items: center;
+		text{
+			padding: 10rpx 30rpx;
+			font-size: 24rpx;
+			border: 2rpx solid #C0C0C0;
+			border-radius: 100rpx;
+			color: #c0c0c0;
+			margin-left: 20rpx;
+		}
+		.action{
+			background-color: $base;
+			color: #FFFFFF;
+			border: 2rpx solid #FFFFFF;
+		}
+	}
+}

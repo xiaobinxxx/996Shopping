@@ -1,0 +1,210 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f9f9f9;	
+}
+
+
+.card-data{
+	width: 90%;
+	height: 90%;
+	margin: 40rpx auto 0;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
+	// 会员
+	.member-data{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 200rpx;
+		.phone{
+			display: flex;
+			align-items: center;
+			height: 80rpx;
+			text{
+				font-size: 32rpx;
+				font-weight: bold;
+				color: #222222;
+			}
+		}
+		.vip-level{
+			display: flex;
+			align-items: center;
+			padding: 10rpx 40rpx;
+			background-color: $base;
+			border-radius: 100rpx;
+			image{
+				width: 24rpx;
+				height: 24rpx;
+			}
+			text{
+				font-size: 24rpx;
+				color: #ffe678;
+				margin-left: 10rpx;
+			}
+		}
+	}
+	// 余额
+	.balance-data{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 200rpx;
+		.data{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 90%;
+			.price{
+				display: flex;
+				align-items: center;
+				height: 80rpx;
+				font-size: 56rpx;
+				color: $base;
+			}
+			.title{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 28rpx;
+					color: #959595;
+					margin-right: 20rpx;
+				}
+			}
+		}
+	}
+	// 付款码
+	.payment-code{
+		padding: 0 4%;
+		.number{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 80rpx;
+			text{
+				font-size: 28rpx;
+				color: #555555;
+				margin-right: 20rpx;
+			}
+		}
+		.code{
+			width: 100%;
+			height: 256rpx;
+			image{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.hint{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 80rpx;
+			text{
+				font-size: 26rpx;
+				color: #959595;
+			}
+		}
+	}
+	// 其他支付方式
+	.payment-way{
+		width: 100%;
+		height: 200rpx;
+		.title{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 80rpx;
+			text{
+				font-size: 30rpx;
+				font-weight: bold;
+				color: #555555;
+			}
+		}
+		.btn{
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 80%;
+			height: 70rpx;
+			margin: 20rpx auto;
+			background: linear-gradient(to right,$base,$change-clor);
+			border-radius: 70rpx;
+			box-shadow: 0 10rpx 10rpx $base;
+			text{
+				color: #FFFFFF;
+				font-size: 28rpx;
+			}
+			.tag{
+				position: absolute;
+				right: 0;
+				top: -20rpx;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 140rpx;
+				height: 40rpx;
+				background-color: #F37B1D;
+				border-radius: 10rpx;
+				text{
+					font-size: 24rpx;
+				}
+			}
+		}
+	}
+}
+
+
+/* 支付方式选择 */
+.pay-way-win{
+	.cu-dialog{
+		border-radius: 20rpx 20rpx 0 0 !important;
+	}
+	.pay-list{
+		padding: 20rpx 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100rpx;
+			border-bottom: 2rpx solid #f6f6f6;
+			.pay{
+				display: flex;
+				align-items: center;
+				image{
+					width: 44rpx;
+					height: 44rpx;
+				}
+				text{
+					font-size: 28rpx;
+					color: #222222;
+					margin-left: 20rpx;
+				}
+			}
+			.check{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 38rpx;
+					color: #959595;
+				}
+				.action{
+					color: $base;
+				}
+			}
+		}
+	}
+}

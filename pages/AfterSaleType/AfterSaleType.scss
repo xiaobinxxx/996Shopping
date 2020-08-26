@@ -1,0 +1,145 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 商品 */
+.goods-data{
+	width: 100%;
+	background-color: #FFFFFF;
+	border-radius: 0 0 20rpx 20rpx;
+	.goods-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 200rpx;
+			.thumb{
+				display: flex;
+				align-items: center;
+				width: 30%;
+				height: 100%;
+				image{
+					width: 160rpx;
+					height: 160rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.item{
+				width: 70%;
+				height: 100%;
+				.title{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 100rpx;
+					text{
+						font-size: 26rpx;
+						color: #c0c0c0;
+					}
+				}
+				.price-num{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 80rpx;
+					.price{
+						display: flex;
+						align-items: center;
+						text{
+							font-size: 24rpx;
+							color: #C0C0C0;
+						}
+						.action{
+							color: #222222;
+							font-weight: bold;
+						}
+					}
+					.num{
+						display: flex;
+						align-items: center;
+						margin-left: 20rpx;
+						text{
+							font-size: 24rpx;
+							color: #C0C0C0;
+						}
+						.action{
+							color: #222222;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* 售后类型选择 */
+.type-select{
+	width: 94%;
+	margin: 20rpx auto;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	overflow: hidden;
+	.type-list{
+		padding: 0 4%;
+		.list{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 100rpx;
+			.title{
+				display: flex;
+				align-items: center;
+				image{
+					width: 40rpx;
+					height: 40rpx;
+				}
+				text{
+					font-size: 32rpx;
+					font-weight: bold;
+					color: #222222;
+					margin-left: 20rpx;
+				}
+			}
+			.content{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 26rpx;
+					color: #959595;
+					margin-left: 10rpx;
+				}
+			}
+		}
+	}
+}	
+
+/* 联系客服 */
+.contact-service{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 94%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	margin: 20rpx auto;
+	border-radius: 20rpx;
+	.btn{
+		display: flex;
+		align-items: center;
+		text{
+			font-size: 30rpx;
+			font-weight: bold;
+		}
+		.iconfont{
+			margin-right: 20rpx;
+		}
+	}
+}

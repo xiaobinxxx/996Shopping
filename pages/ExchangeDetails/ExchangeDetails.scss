@@ -1,0 +1,331 @@
+.page {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+/* 优惠券兑换 */
+.banner-title {
+	width: 100%;
+	height: 420rpx;
+	background-color: #ffffff;
+	border-radius: 0 0 20rpx 20rpx;
+	.banner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 200rpx;
+		height: 200rpx;
+		margin: 0 auto;
+		background-color: $base;
+		border-radius: 100%;
+		image {
+			width: 120rpx;
+			height: 120rpx;
+		}
+	}
+	.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 140rpx;
+		.name {
+			font-size: 32rpx;
+			font-weight: bold;
+			color: #222222;
+		}
+		.describe {
+			font-size: 24rpx;
+			color: #959595;
+			margin-top: 10rpx;
+		}
+	}
+	.integral-title {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 4%;
+		height: 80rpx;
+		.integral {
+			display: flex;
+			align-items: center;
+			text {
+				font-size: 24rpx;
+				color: #959595;
+			}
+			.action {
+				font-size: 32rpx;
+				font-weight: bold;
+				color: $base;
+				margin-right: 10rpx;
+			}
+		}
+	}
+}
+
+/* 商品兑换 */
+.banner-goods {
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 0 0 20rpx 20rpx;
+	.banner {
+		width: 100%;
+		height: 360rpx;
+		overflow: hidden;
+		.screen-swiper {
+			width: 100%;
+			height: 100%;
+			image {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.goods-title {
+		width: 100%;
+		padding: 20rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		.title-vip {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			.title {
+				display: flex;
+				align-items: center;
+				text-align: left;
+				width: 70%;
+				text {
+					font-size: 26rpx;
+					font-weight: bold;
+					color: #222222;
+				}
+			}
+			.vip {
+				display: flex;
+				align-items: center;
+				text {
+					padding: 6rpx 12rpx;
+					font-size: 24rpx;
+					color: #ff9900;
+					border: 2rpx solid #ff9900;
+					border-radius: 200rpx;
+				}
+			}
+		}
+		.integral-title {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 4%;
+			height: 80rpx;
+			.integral {
+				display: flex;
+				align-items: center;
+				text {
+					font-size: 24rpx;
+					color: #959595;
+				}
+				.action {
+					font-size: 32rpx;
+					font-weight: bold;
+					color: $base;
+					margin-right: 10rpx;
+				}
+			}
+		}
+	}
+}
+
+/* 兑换须知 */
+.convertible-notes {
+	width: 100%;
+	background-color: #ffffff;
+	margin: 20rpx auto;
+	border-radius: 20rpx;
+	padding-bottom: 20rpx;
+	.title {
+		display: flex;
+		align-items: center;
+		padding: 0 4%;
+		height: 80rpx;
+		font-size: 28rpx;
+		font-weight: bold;
+	}
+	.content {
+		padding: 0 4%;
+		font-size: 26rpx;
+		color: #555555;
+		line-height: 50rpx;
+	}
+}
+
+/* 兑换按钮 */
+.exchange-btn {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	background-color: #ffffff;
+	.btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		font-size: 28rpx;
+		color: #ffffff;
+		background: linear-gradient($base, $change-clor);
+		box-shadow: 0 2px 5px $base;
+		border-radius: 70rpx;
+	}
+}
+
+/* 兑换弹窗 */
+.exchange-win {
+	.goods-title {
+		width: 100%;
+		padding: 20rpx;
+		border-bottom: 2rpx solid #EEEEEE;
+		.title-vip {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			.title {
+				display: flex;
+				align-items: center;
+				width: 70%;
+				height: 100rpx;
+				text {
+					font-size: 26rpx;
+					font-weight: bold;
+					color: #222222;
+					text-align: left;
+				}
+			}
+			.vip {
+				display: flex;
+				align-items: center;
+				text {
+					padding: 6rpx 12rpx;
+					font-size: 24rpx;
+					color: #ff9900;
+					border: 2rpx solid #ff9900;
+					border-radius: 200rpx;
+				}
+			}
+		}
+		.integral-title {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 4%;
+			height: 80rpx;
+			.integral {
+				display: flex;
+				align-items: center;
+				text {
+					font-size: 24rpx;
+					color: #959595;
+				}
+				.action {
+					font-size: 32rpx;
+					font-weight: bold;
+					color: $base;
+					margin-right: 10rpx;
+				}
+			}
+		}
+	}
+	.delivery-address{
+		padding: 0 4%;
+		height: 200rpx;
+		.title{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 80rpx;
+			font-size: 28rpx;
+			font-weight: bold;
+			color: #555555;
+		}
+		.address-phone{
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 120rpx;
+			.icon{
+				display: flex;
+				align-items: center;
+				width: 10%;
+				height: 100%;
+				text{
+					font-size: 38rpx;
+				}
+			}
+			.address{
+				width: 80%;
+				height: 100%;
+				.location{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					height: 50%;
+					text{
+						font-size: 26rpx;
+						color: #222222;
+					}
+				}
+				.name-phone{
+					display: flex;
+					align-items: center;
+					width: 100%;
+					text{
+						font-size: 26rpx;
+						color: #959595;
+					}
+				}
+			}
+			.more{
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				width: 10%;
+				height: 100%;
+				text{
+					font-size: 32rpx;
+					color: #959595;
+				}
+			}
+		}
+	}
+	.affirm-btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100rpx;
+		.btn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 90%;
+			height: 60rpx;
+			font-size: 28rpx;
+			color: #ffffff;
+			background: linear-gradient($base, $change-clor);
+			box-shadow: 0 2px 5px $base;
+			border-radius: 70rpx;
+		}
+	}
+}

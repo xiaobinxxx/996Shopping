@@ -1,0 +1,69 @@
+.page{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f6f6f6;
+}
+
+.add-list{
+	padding: 0 4%;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+	margin-top: 20rpx;
+	.list{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 100rpx;
+		border-bottom: 2rpx solid #f6f6f6;
+		.title{
+			display: flex;
+			align-items: center;
+			width: 20%;
+			height: 100%;
+			text{
+				font-size: 26rpx;
+				color: #222222;
+			}
+			.star{
+				color: red;
+			}
+		}
+		.content{
+			display: flex;
+			align-items: center;
+			width: 80%;
+			height: 100%;
+			input{
+				width: 100%;
+				height: 100%;
+				color: #222222;
+				font-size: 26rpx;
+			}
+		}
+	}
+}
+
+/* 保存按钮 */
+.save-btn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100rpx;
+	margin: 20rpx auto;
+	.btn{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+		height: 70rpx;
+		background: linear-gradient(to right,$base,$change-clor);
+		box-shadow: 0 10rpx 10rpx $base;
+		border-radius: 70rpx;
+		font-size: 28rpx;
+		color: #FFFFFF;
+	}
+}

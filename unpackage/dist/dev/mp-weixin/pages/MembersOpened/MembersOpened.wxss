@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主要颜色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page.data-v-7cb875cc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f6f6;
+}
+/* 背景 */
+.head-bg.data-v-7cb875cc {
+  width: 100%;
+  height: 600rpx;
+  background-color: #fe3b0f;
+  border-radius: 0 0 20% 20%;
+}
+.head-bg .vip-title.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 100rpx;
+  padding-top: 30rpx;
+}
+.head-bg .vip-title text.data-v-7cb875cc {
+  font-size: 42rpx;
+  color: #FFFFFF;
+}
+.head-bg .vip-describe.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.head-bg .vip-describe text.data-v-7cb875cc {
+  font-size: 48rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/* 会员权益 */
+.vip-interests.data-v-7cb875cc {
+  position: relative;
+  width: 90%;
+  margin: -400rpx auto 0;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  padding: 20rpx 0;
+}
+.vip-interests .interests-list.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 4%;
+}
+.vip-interests .interests-list .list.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 33%;
+  height: 200rpx;
+}
+.vip-interests .interests-list .list .thumb.data-v-7cb875cc {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #EEEEEE;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.vip-interests .interests-list .list .thumb image.data-v-7cb875cc {
+  width: 100%;
+  height: 100%;
+}
+.vip-interests .interests-list .list .title.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 60rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.vip-interests .interests-list .list .describe.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  font-size: 24rpx;
+  color: #959595;
+}
+.vip-interests .vip-tips.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 80rpx;
+}
+.vip-interests .vip-tips text.data-v-7cb875cc {
+  font-size: 26rpx;
+  color: #959595;
+}
+.vip-interests .vip-tips .price.data-v-7cb875cc {
+  color: #fe3b0f;
+}
+.vip-interests .dredge-btn.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 80%;
+  height: 70rpx;
+  background-color: #fe3b0f;
+  border-radius: 70px;
+  margin: 10px auto;
+}
+.vip-interests .dredge-btn text.data-v-7cb875cc {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.vip-interests .exchange-btn.data-v-7cb875cc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 80%;
+  height: 70rpx;
+  border: 2rpx solid #fe3b0f;
+  border-radius: 70px;
+  margin: 10px auto;
+}
+.vip-interests .exchange-btn text.data-v-7cb875cc {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #fe3b0f;
+}
+

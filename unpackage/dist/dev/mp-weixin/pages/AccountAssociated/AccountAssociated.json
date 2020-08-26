@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账号关联",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "dialog-box": "/components/DialogBox/DialogBox"
+  }
+}
