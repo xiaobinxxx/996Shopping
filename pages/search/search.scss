@@ -17,11 +17,12 @@
 	height: 100rpx;
 	z-index: 10;
 	/* #ifdef APP-PLUS */
-	height: 200rpx;
+	height: calc(100rpx + var(--status-bar-height));
+	padding-top: var(--status-bar-height);
 	/* #endif */
 	/* #ifdef MP */
-	height: 260rpx;
-	padding-top: 60rpx;
+	height: calc(240rpx + var(--status-bar-height));
+	padding-top: calc(80rpx + var(--status-bar-height));
 	/* #endif */
 	background-color: #ffffff;
 	border-bottom: 2rpx solid #f6f6f6;
@@ -79,7 +80,7 @@
 	margin-top: 200rpx;
 	/* #endif */
 	/* #ifdef MP */
-	margin-top: 270rpx;
+	margin-top: calc(240rpx + var(--status-bar-height));
 	/* #endif */
 	background-color: #FFFFFF;
 	border-bottom: 2rpx solid #f6f6f6;

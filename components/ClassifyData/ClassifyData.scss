@@ -2,6 +2,13 @@
 	position: absolute;
 	left: 0;
 	top: 200rpx;
+	/* #ifdef APP-PLUS */
+	top: calc(180rpx + var(--status-bar-height));
+	/* #endif */
+	/* #ifdef MP */
+	top: calc(100rpx + var(--status-bar-height));
+	/* #endif */
+	padding-bottom: 20rpx;
 	width: 100%;
 	// height: 100%;
 	overflow-x: hidden;

@@ -19,7 +19,7 @@
 	width: 100%;
 	height: 100rpx;
 	/* #ifdef APP-PLUS */
-	height: 170rpx;
+	height: calc(120rpx + var(--status-bar-height));
 	/* #endif */
 	padding: 0 4%;
 	background-color: #FFFFFF;
@@ -44,7 +44,7 @@
 		background-color: #f6f6f6;
 		border-radius: 60rpx;
 		/* #ifdef APP-PLUS */
-		margin-top: 20rpx;
+		margin-top: var(--status-bar-height);
 		/* #endif */
 		.iconfont{
 			font-size: 28rpx;
@@ -64,7 +64,7 @@
 	width: 100%;
 	margin-top: 120rpx;
 	/* #ifdef APP-PLUS */
-	margin-top: 190rpx;
+	margin-top: calc(150rpx + var(--status-bar-height));
 	/* #endif */
 	.article-list{
 		padding: 0 4%;

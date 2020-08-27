@@ -29,6 +29,13 @@
   position: absolute;
   left: 0;
   top: 200rpx;
+
+
+
+
+  top: calc(100rpx + 25px);
+
+  padding-bottom: 20rpx;
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;

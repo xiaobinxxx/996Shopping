@@ -19,7 +19,7 @@
 	height: 100rpx;
 	background:rgba(255,255,255,0);
 	/* #ifdef APP-PLUS */
-	height: 120rpx;
+	height: calc(100rpx + var(--status-bar-height));
 	/* #endif */
 	/* #ifdef MP */
 	height: 200rpx;
@@ -233,6 +233,116 @@
 			}
 			.action{
 				color: $base;
+			}
+		}
+	}
+}
+/* 限时抢购 */
+.flash-price{
+	display: flex;
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	// border-radius: 20rpx;
+	overflow: hidden;
+	.price-item{
+		position: relative;
+		display: flex;
+		width: 70%;
+		height: 100%;
+		background: linear-gradient(to left,$base,$assist-clor);
+		padding: 0 20rpx;
+		overflow: hidden;
+		.icon-item{
+			display: flex;
+			align-items: center;
+			height: 100%;
+			text{
+				font-size: 42rpx;
+				color: #FFFFFF;
+			}
+		}
+		.price{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-left: 20rpx;
+			.current-price{
+				display: flex;
+				align-items: center;
+				// height: 60rpx;
+				text{
+					color: #FFFFFF;
+					font-weight: bold;
+				}
+				.min{
+					font-size: 28rpx;
+				}
+				.max{
+					font-size: 38rpx;
+				}
+			}
+			.original-price{
+				display: flex;
+				align-items: center;
+				text{
+					font-size: 24rpx;
+					color: #FFFFFF;
+					opacity: 0.7;
+					text-decoration: line-through;
+				}
+			}
+		}
+		.tag{
+			position: absolute;
+			right: -20rpx;
+			bottom: -20rpx;
+			transform: rotate(-45deg);
+			text{
+				font-size: 68rpx;
+				color: rgba(0,0,0,0.2);
+			}
+		}
+	}
+	.time-item{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 30%;
+		height: 100%;
+		background-color:$rgba-05;
+		// opacity: 0.5;
+		.title{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			text{
+				color: #FFFFFF;
+				font-size: 24rpx;
+			}
+		}
+		.time{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			height: 50rpx;
+			.num{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 40rpx;
+				height: 40rpx;
+				font-size: 24rpx;
+				color: #FFFFFF;
+				background-color: $base;
+				border-radius: 10rpx;
+			}
+			.dot{
+				font-size: 24rpx;
+				color: $base;
+				margin: 0 5rpx;
 			}
 		}
 	}

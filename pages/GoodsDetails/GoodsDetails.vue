@@ -82,7 +82,7 @@
         </swiper>
       </view>
       <!-- 价格 -->
-      <view class="price-info">
+      <view class="price-info" v-show="type==0">
         <view class="price">
           <text class="min">￥</text>
           <text class="max">99</text>
@@ -99,6 +99,39 @@
           </view>
         </view>
       </view>
+			<!-- 限时抢购 -->
+			<view class="flash-price" v-show="type==1">
+				<view class="price-item">
+					<view class="icon-item">
+						<text class="iconfont icon-flash-sale"></text>
+					</view>
+					<view class="price">
+						<view class="current-price">
+							<text class="min">￥</text>
+							<text class="max">99</text>
+							<text class="min">.00</text>
+						</view>
+						<view class="original-price">
+							<text>￥149.00</text>
+						</view>
+					</view>
+					<view class="tag">
+						<text class="iconfont icon-flash-naozhong"></text>
+					</view>
+				</view>
+				<view class="time-item">
+					<view class="title">
+						<text>距结束还剩：</text>
+					</view>
+					<view class="time">
+						<text class="num">02</text>
+						<text class="dot">:</text>
+						<text class="num">46</text>
+						<text class="dot">:</text>
+						<text class="num">52</text>
+					</view>
+				</view>
+			</view>
       <!-- 标题 -->
       <view class="goods-title">
         <text>美连诚雪纺连衣裙 2020新款女夏裙子波点气质沙滩裙仙气时尚女装休闲衣服大码女装 白底红点 M</text>
@@ -343,9 +376,11 @@ export default {
       web_content:
           '<div class="m-img"><img src="https://zhedplus.oss-cn-hangzhou.aliyuncs.com/content_img/20191118/1fb5ff162f25fd4c7383bd998ff2fde9.jpg"><div class="tools" hidden><i class="fa fa-arrow-up move-up"></i><i class="fa fa-arrow-down move-down"></i><em class="move-remove" hidden ><i class="fa fa-times" aria-hidden="true"></i> 移除</em><div class="cover"></div></div></div>',
       PageScrollTop: 0,
+			type: 0,
     };
   },
-	onLoad() {
+	onLoad(params) {
+		this.type = params.type||0;
 	},
 	onPageScroll(e) {
 		this.PageScrollTop = e.scrollTop;

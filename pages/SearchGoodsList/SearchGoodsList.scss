@@ -5,6 +5,7 @@
 	background: #f6f6f6;
 	overflow-x: hidden;
 	overflow-y: auto;
+	padding-bottom: 40rpx;
 }
 
 /* 搜索 */
@@ -18,10 +19,11 @@
 	height: 100rpx;
 	z-index: 10;
 	/* #ifdef APP-PLUS */
-	height: 200rpx;
+	height: calc(150rpx + var(--status-bar-height));
 	/* #endif */
 	/* #ifdef MP */
-	height: 310rpx;
+	height: calc(300rpx + var(--status-bar-height));
+	padding-top: var(--status-bar-height);
 	/* #endif */
 	background-color: #ffffff;
 	.back {
@@ -81,7 +83,7 @@
 	top: 150rpx;
 	/* #endif */
 	/* #ifdef MP */
-	top: 200rpx;
+	top: calc(200rpx + var(--status-bar-height));
 	/* #endif */
 	width: 100%;
 	height: 100rpx;
@@ -185,7 +187,7 @@
 	margin-top: 270rpx;
 	/* #endif */
 	/* #ifdef MP */
-	margin-top: 320rpx;
+	margin-top: calc(320rpx + var(--status-bar-height));
 	/* #endif */
 	.goods-list {
 		padding: 0 25rpx;

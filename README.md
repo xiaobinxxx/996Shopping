@@ -27,7 +27,7 @@
 
 ![image text](http://static.996ico.cn/static/picture/996shop/img/show_03.jpg)
 ### 其他说明
-- 商城可以用作搭建项目，勿做其他非法用户，切记切记！！
+- 商城可以用作搭建项目，勿做其他非法用途，切记切记！！
 - UI组件部分使用ColorUI-UniApp 感谢作者 文晓港
 - 如商城遇到部分问题，可以评论留言，我会都看到的
 

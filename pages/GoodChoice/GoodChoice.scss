@@ -5,6 +5,7 @@
 	width: 100%;
 	height: 100%;
 	background-color: #f6f6f6;
+	padding-bottom: 40rpx;
 }
 
 .head-back{
@@ -17,20 +18,28 @@
 	height: 100rpx;
 	background: linear-gradient(to right,#00b6a5,#00ccba);
 	/* #ifdef APP-PLUS */
-	height: 150rpx;
+	height: calc(120rpx + var(--status-bar-height));
+	padding-top: var(--status-bar-height);
 	/* #endif */
 	/* #ifdef MP */
 	height: 150rpx;
+	padding-top: var(--status-bar-height);
 	/* #endif */
 	.back{
 		position: absolute;
 		left: 0;
 		top: 0;
+		/* #ifdef APP-PLUS */
+		top: var(--status-bar-height);
+		/* #endif */
+		/* #ifdef MP */
+		top: var(--status-bar-height);
+		/* #endif */
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		width: 100rpx;
-		height: 100%;
+		height: 100rpx;
 		text{
 			display: flex;
 			width: 20rpx;
@@ -45,7 +54,7 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		height: 100%;
+		height: 100rpx;
 		image{
 			width: 200rpx;
 			height: 50rpx;
@@ -55,15 +64,15 @@
 
 .head-bg{
 	width: 100%;
-	height: 300rpx;
+	height: calc(300rpx + var(--status-bar-height));
 	background: linear-gradient(to right,#00b6a5,#00ccba);
 	border-radius: 0 0 20% 20%;
 	padding-top: 100rpx;
 	/* #ifdef APP-PLUS */
-	padding-top: 150rpx;
+	padding-top: calc(100rpx + var(--status-bar-height));
 	/* #endif */
 	/* #ifdef MP */
-	padding-top: 150rpx;
+	padding-top: calc(100rpx + var(--status-bar-height));
 	/* #endif */
 	// banner
 	.banner{
@@ -74,6 +83,11 @@
 		margin:20rpx auto;
 		.screen-swiper{
 			min-height: 100% !important;
+			image{
+				width: 100%;
+				height: 100%;
+				border-radius: 10rpx;
+			}
 		}
 	}
 }
@@ -82,10 +96,10 @@
 	width: 100%;
 	margin-top: 160rpx;
 	/* #ifdef APP-PLUS */
-	margin-top: 200rpx;
+	margin-top: 150rpx;
 	/* #endif */
 	/* #ifdef MP */
-	margin-top: 200rpx;
+	margin-top: calc(100rpx + var(--status-bar-height));
 	/* #endif */
 	.goods-list{
 		width: 94%;

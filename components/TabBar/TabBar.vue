@@ -1,6 +1,6 @@
 <template>
 	<view class="page-total">
-		<view class="tab-list" :style="isOverall===1?'height:140rpx;padding-bottom: 30rpx;':''">
+		<view class="tab-list">
 			<view class="list" v-for="(item,index) in TabBarList" 
 			@click="onTabBar(item,index)"
 			:key="index">

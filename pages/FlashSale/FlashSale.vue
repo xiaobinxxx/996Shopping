@@ -88,7 +88,7 @@
 			 */
 			onGoods(){
 				uni.navigateTo({
-					url: '/pages/GoodsDetails/GoodsDetails'
+					url: '/pages/GoodsDetails/GoodsDetails?type=1'
 				})
 			}
 		}

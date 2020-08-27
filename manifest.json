@@ -2,7 +2,7 @@
     "name" : "商城",
     "appid" : "",
     "description" : "",
-    "versionName" : "1.0.0",
+    "versionName" : "1.0.1",
     "versionCode" : "100",
     "transformPx" : false,
     /* 5+App特有相关 */
@@ -121,6 +121,7 @@
         "title" : "商城",
         "devServer" : {
             "https" : false
-        }
+        },
+        "domain" : ""
     }
 }

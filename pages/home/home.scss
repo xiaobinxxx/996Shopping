@@ -16,8 +16,8 @@
 	z-index: 100;
 	width: 100%;
 	/* #ifdef APP-PLUS||H5 */
-	padding: 50rpx 25rpx 0;
-	height: 220rpx;
+	padding: calc(20rpx + var(--status-bar-height)) 25rpx 0;
+	height: calc(200rpx + var(--status-bar-height));
 	/* #endif */
 	/* #ifdef MP */
 	padding:0 25rpx;
@@ -116,7 +116,7 @@
 }
 .main{
 	/* #ifdef APP-PLUS||H5 */
-	margin-top: 220rpx;
+	margin-top: calc(200rpx + var(--status-bar-height));
 	/* #endif */
 	/* #ifdef MP */
 	margin-top: 170rpx;

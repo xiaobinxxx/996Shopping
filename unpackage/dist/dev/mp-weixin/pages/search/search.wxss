@@ -51,8 +51,9 @@
 
 
 
-  height: 260rpx;
-  padding-top: 60rpx;
+
+  height: calc(240rpx + 25px);
+  padding-top: calc(80rpx + 25px);
 
   background-color: #ffffff;
   border-bottom: 2rpx solid #f6f6f6;
@@ -127,7 +128,7 @@
 
 
 
-  margin-top: 270rpx;
+  margin-top: calc(240rpx + 25px);
 
   background-color: #FFFFFF;
   border-bottom: 2rpx solid #f6f6f6;

@@ -70,8 +70,8 @@
 
 
 
-  height: 220rpx;
-  padding-top: 120rpx;
+  height: calc(200rpx + 25px);
+  padding-top: calc(100rpx + 25px);
 
   background-color: rgba(255, 255, 255, 0);
 }

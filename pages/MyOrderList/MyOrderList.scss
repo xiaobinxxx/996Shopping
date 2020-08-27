@@ -19,8 +19,8 @@
 	height: 100rpx;
 	background-color: #FFFFFF;
 	/* #ifdef APP-PLUS */
-	height: 150rpx;
-	padding-top: 20rpx;
+	height: calc(50rpx + var(--status-bar-height));
+	padding-top: var(--status-bar-height);
 	/* #endif */
 	/* #ifdef MP */
 	height: 150rpx;
@@ -31,7 +31,7 @@
 		left: 0;
 		top: 0;
 		/* #ifdef APP-PLUS */
-		padding-top: 20rpx;
+		padding-top: var(--status-bar-height);
 		/* #endif */
 		/* #ifdef MP */
 		padding-top: 20rpx;
@@ -63,7 +63,7 @@
 		top: 0;
 		/* #ifdef APP-PLUS */
 		right: 0rpx;
-		padding-top: 20rpx;
+		padding-top: var(--status-bar-height);
 		/* #endif */
 		/* #ifdef MP */
 		right: 220rpx;
@@ -91,6 +91,9 @@
 	position: fixed;
 	left: 0;
 	top: 100rpx;
+	/* #ifdef APP-PLUS */
+	top: calc(50rpx + var(--status-bar-height));
+	/* #endif */
 	z-index: 10;
 	display: flex;
 	align-items: center;
@@ -129,6 +132,9 @@
 .order-list{
 	width: 100%;
 	margin-top: 220rpx;
+	/* #ifdef APP-PLUS */
+	margin-top: calc(170rpx + var(--status-bar-height));
+	/* #endif */
 	.list{
 		padding: 0 4%;
 		min-height: 400rpx;
