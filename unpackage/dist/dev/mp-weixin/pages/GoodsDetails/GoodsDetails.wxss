@@ -323,6 +323,163 @@
 .price-info .info .list .action.data-v-ac2c40f4 {
   color: #fe3b0f;
 }
+/* 限时抢购 */
+.flash-price.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100rpx;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.flash-price .price-item.data-v-ac2c40f4 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  background: -webkit-linear-gradient(right, #fe3b0f, #ff4e17);
+  background: linear-gradient(to left, #fe3b0f, #ff4e17);
+  padding: 0 20rpx;
+  overflow: hidden;
+}
+.flash-price .price-item .icon-item.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+}
+.flash-price .price-item .icon-item text.data-v-ac2c40f4 {
+  font-size: 42rpx;
+  color: #FFFFFF;
+}
+.flash-price .price-item .price.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-left: 20rpx;
+}
+.flash-price .price-item .price .current-price.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.flash-price .price-item .price .current-price text.data-v-ac2c40f4 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.flash-price .price-item .price .current-price .min.data-v-ac2c40f4 {
+  font-size: 28rpx;
+}
+.flash-price .price-item .price .current-price .max.data-v-ac2c40f4 {
+  font-size: 38rpx;
+}
+.flash-price .price-item .price .original-price.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.flash-price .price-item .price .original-price text.data-v-ac2c40f4 {
+  font-size: 24rpx;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.flash-price .price-item .tag.data-v-ac2c40f4 {
+  position: absolute;
+  right: -20rpx;
+  bottom: -20rpx;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.flash-price .price-item .tag text.data-v-ac2c40f4 {
+  font-size: 68rpx;
+  color: rgba(0, 0, 0, 0.2);
+}
+.flash-price .time-item.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(233, 59, 61, 0.5);
+}
+.flash-price .time-item .title.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+}
+.flash-price .time-item .title text.data-v-ac2c40f4 {
+  color: #FFFFFF;
+  font-size: 24rpx;
+}
+.flash-price .time-item .time.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 100%;
+  height: 50rpx;
+}
+.flash-price .time-item .time .num.data-v-ac2c40f4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  background-color: #fe3b0f;
+  border-radius: 10rpx;
+}
+.flash-price .time-item .time .dot.data-v-ac2c40f4 {
+  font-size: 24rpx;
+  color: #fe3b0f;
+  margin: 0 5rpx;
+}
 /* 标题 */
 .goods-title.data-v-ac2c40f4 {
   padding: 0 4%;
@@ -901,7 +1058,7 @@
           justify-content: center;
   width: 48%;
   height: 70rpx;
-  background: #fe3b0f;
+  background: #fc603a;
   border-radius: 70rpx;
 }
 .page-footer .footer-buy .buy-at text.data-v-ac2c40f4 {

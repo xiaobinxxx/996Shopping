@@ -392,6 +392,20 @@
             	"navigationBarBackgroundColor": "#FFFFFF"
             }
         }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+              "navigationBarTitleText": "登录",
+              "navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+              "navigationBarTitleText": "注册",
+              "navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

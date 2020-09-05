@@ -160,7 +160,40 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var GoodsServe = function GoodsServe() {__webpack_require__.e(/*! require.ensure | components/GoodsServe/GoodsServe */ "components/GoodsServe/GoodsServe").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsServe/GoodsServe.vue */ 464));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var GoodsCoupon = function GoodsCoupon() {__webpack_require__.e(/*! require.ensure | components/GoodsCoupon/GoodsCoupon */ "components/GoodsCoupon/GoodsCoupon").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsCoupon/GoodsCoupon.vue */ 471));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var GoodsAttr = function GoodsAttr() {__webpack_require__.e(/*! require.ensure | components/GoodsAttr/GoodsAttr */ "components/GoodsAttr/GoodsAttr").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsAttr/GoodsAttr.vue */ 478));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var GoodsServe = function GoodsServe() {__webpack_require__.e(/*! require.ensure | components/GoodsServe/GoodsServe */ "components/GoodsServe/GoodsServe").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsServe/GoodsServe.vue */ 472));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var GoodsCoupon = function GoodsCoupon() {__webpack_require__.e(/*! require.ensure | components/GoodsCoupon/GoodsCoupon */ "components/GoodsCoupon/GoodsCoupon").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsCoupon/GoodsCoupon.vue */ 479));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var GoodsAttr = function GoodsAttr() {__webpack_require__.e(/*! require.ensure | components/GoodsAttr/GoodsAttr */ "components/GoodsAttr/GoodsAttr").then((function () {return resolve(__webpack_require__(/*! ../../components/GoodsAttr/GoodsAttr.vue */ 486));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -504,10 +537,12 @@ __webpack_require__.r(__webpack_exports__);
 
       web_content:
       '<div class="m-img"><img src="https://zhedplus.oss-cn-hangzhou.aliyuncs.com/content_img/20191118/1fb5ff162f25fd4c7383bd998ff2fde9.jpg"><div class="tools" hidden><i class="fa fa-arrow-up move-up"></i><i class="fa fa-arrow-down move-down"></i><em class="move-remove" hidden ><i class="fa fa-times" aria-hidden="true"></i> 移除</em><div class="cover"></div></div></div>',
-      PageScrollTop: 0 };
+      PageScrollTop: 0,
+      type: 0 };
 
   },
-  onLoad: function onLoad() {
+  onLoad: function onLoad(params) {
+    this.type = params.type || 0;
   },
   onPageScroll: function onPageScroll(e) {
     this.PageScrollTop = e.scrollTop;

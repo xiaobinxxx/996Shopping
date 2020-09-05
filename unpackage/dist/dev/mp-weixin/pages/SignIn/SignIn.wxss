@@ -37,8 +37,8 @@
   position: relative;
   width: 100%;
   height: 460rpx;
-  background: -webkit-linear-gradient(#fe3b0f, #fe3b0f);
-  background: linear-gradient(#fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(#fe3b0f, #fc603a);
+  background: linear-gradient(#fe3b0f, #fc603a);
 }
 .head-bg .head-user.data-v-7e0a4b86 {
   display: -webkit-box;
@@ -352,8 +352,8 @@
           justify-content: center;
   width: 180rpx;
   height: 50rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
   border-radius: 60rpx;
   box-shadow: 0 10rpx 10rpx #fe3b0f;
 }
@@ -428,8 +428,8 @@
           justify-content: center;
   width: 80%;
   height: 60rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
   border-radius: 60rpx;
   box-shadow: 0 10rpx 10rpx #fe3b0f;
   margin: 40rpx auto 0;

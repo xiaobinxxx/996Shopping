@@ -204,7 +204,7 @@ var _default =
         */
     onGoods: function onGoods() {
       uni.navigateTo({
-        url: '/pages/GoodsDetails/GoodsDetails' });
+        url: '/pages/GoodsDetails/GoodsDetails?type=1' });
 
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))

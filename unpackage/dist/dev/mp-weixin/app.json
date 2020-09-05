@@ -53,7 +53,9 @@
     "pages/AboutUs/AboutUs",
     "pages/Message/Message",
     "pages/DiscountsActivity/DiscountsActivity",
-    "pages/NotificationMessage/NotificationMessage"
+    "pages/NotificationMessage/NotificationMessage",
+    "pages/login/login",
+    "pages/register/register"
   ],
   "subPackages": [],
   "window": {
@@ -102,5 +104,5 @@
   "usingComponents": {
     "dialog-box": "/components/DialogBox/DialogBox"
   },
-  "sitemapLocation": "sitemap10.json"
+  "sitemapLocation": "sitemap3.json"
 }

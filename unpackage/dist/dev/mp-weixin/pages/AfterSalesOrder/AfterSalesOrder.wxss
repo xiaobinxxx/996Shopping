@@ -389,8 +389,8 @@
   color: #555555;
 }
 .filtrate-win .cu-dialog .footer-btn .action.data-v-d88fb5f8 {
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
 }
 .filtrate-win .cu-dialog .footer-btn .action text.data-v-d88fb5f8 {
   color: #FFFFFF;

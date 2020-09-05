@@ -251,8 +251,8 @@
           justify-content: center;
   width: 90%;
   height: 70rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
   border-radius: 70rpx;
   font-size: 28rpx;
   color: #FFFFFF;

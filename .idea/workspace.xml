@@ -2,27 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a32bbe01-64e8-4a63-8389-b777de932a16" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/login/login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/register/register.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/register/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/wx_ico.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ClassifyData/ClassifyData.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/ClassifyData/ClassifyData.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/TabBar/TabBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/TabBar/TabBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GoodsAttr/GoodsAttr.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoodsAttr/GoodsAttr.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FlashSale/FlashSale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FlashSale/FlashSale.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/FlashSale/FlashSale.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/FlashSale/FlashSale.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/GoodChoice/GoodChoice.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/GoodChoice/GoodChoice.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/GoodsDetails/GoodsDetails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/GoodsDetails/GoodsDetails.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/GoodsDetails/GoodsDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/GoodsDetails/GoodsDetails.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/MyOrderList/MyOrderList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/MyOrderList/MyOrderList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/SearchGoodsList/SearchGoodsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/SearchGoodsList/SearchGoodsList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/cart/cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/discover/discover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/discover/discover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my/my.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/FontStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/FontStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cart/cart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart/cart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uni.scss" beforeDir="false" afterPath="$PROJECT_DIR$/uni.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-config-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-config-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/app-plus/app-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/build/app-plus/static/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/ClassifyData/ClassifyData.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/ClassifyData/ClassifyData.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/CodeKeyboard/CodeKeyboard.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/CodeKeyboard/CodeKeyboard.js.map" afterDir="false" />
@@ -91,17 +90,66 @@
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/main.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/common/main.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/ClassifyData/ClassifyData.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/ClassifyData/ClassifyData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/ClassifyData/ClassifyData.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/ClassifyData/ClassifyData.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/TabBar/TabBar.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/TabBar/TabBar.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/CodeKeyboard/CodeKeyboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/CodeKeyboard/CodeKeyboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/DialogBox/DialogBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/DialogBox/DialogBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsAttr/GoodsAttr.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsAttr/GoodsAttr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsAttr/GoodsAttr.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsAttr/GoodsAttr.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsCoupon/GoodsCoupon.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsCoupon/GoodsCoupon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsServe/GoodsServe.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/GoodsServe/GoodsServe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/InvoiceInfo/InvoiceInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/InvoiceInfo/InvoiceInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/TabBar/TabBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/TabBar/TabBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/UseCoupon/UseCoupon.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/UseCoupon/UseCoupon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AccountAssociated/AccountAssociated.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AccountAssociated/AccountAssociated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AddressEdit/AddressEdit.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AddressEdit/AddressEdit.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AddressList/AddressList.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AddressList/AddressList.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AfterSalesOrder/AfterSalesOrder.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AfterSalesOrder/AfterSalesOrder.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AssociatedmMailbox/AssociatedmMailbox.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/AssociatedmMailbox/AssociatedmMailbox.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/BrowsingHistory/BrowsingHistory.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/BrowsingHistory/BrowsingHistory.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ChangePassword/ChangePassword.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ChangePassword/ChangePassword.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ConfirmOrder/ConfirmOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ConfirmOrder/ConfirmOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ConsumeRecord/ConsumeRecord.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ConsumeRecord/ConsumeRecord.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ContentCollection/ContentCollection.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ContentCollection/ContentCollection.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ExchangeDetails/ExchangeDetails.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ExchangeDetails/ExchangeDetails.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ExchangeRecord/ExchangeRecord.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ExchangeRecord/ExchangeRecord.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Feedback/Feedback.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Feedback/Feedback.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/FlashSale/FlashSale.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/FlashSale/FlashSale.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/FlashSale/FlashSale.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/FlashSale/FlashSale.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodChoice/GoodChoice.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodChoice/GoodChoice.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/MyOrderList/MyOrderList.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/MyOrderList/MyOrderList.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/SearchGoodsList/SearchGoodsList.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/SearchGoodsList/SearchGoodsList.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsDetails/GoodsDetails.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsOn/GoodsOn.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/GoodsOn/GoodsOn.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Information/Information.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Information/Information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/IntegralDetails/IntegralDetails.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/IntegralDetails/IntegralDetails.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceAdd/InvoiceAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceAdd/InvoiceAdd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceAdd/InvoiceAdd.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceAdd/InvoiceAdd.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceList/InvoiceList.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/InvoiceList/InvoiceList.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ModifyPhone/ModifyPhone.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ModifyPhone/ModifyPhone.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/MyWallet/MyWallet.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/MyWallet/MyWallet.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/OrderDetails/OrderDetails.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/OrderDetails/OrderDetails.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PayResult/PayResult.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PayResult/PayResult.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentCode/PaymentCode.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentCode/PaymentCode.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentEdit/PaymentEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentEdit/PaymentEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentForget/PaymentForget.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/PaymentForget/PaymentForget.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ReturnDetails/ReturnDetails.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/ReturnDetails/ReturnDetails.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Setting/Setting.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/Setting/Setting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/SignIn/SignIn.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/SignIn/SignIn.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/cart/cart.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/classify/classify.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/classify/classify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/discover/discover.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/discover/discover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/my/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/my/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/my/my.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/my/my.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/search/search.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/search/search.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../优哩哩源码/后台接口" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,21 +192,47 @@
       <workItem from="1598444117399" duration="6468000" />
       <workItem from="1598453071415" duration="597000" />
       <workItem from="1598499005827" duration="619000" />
-      <workItem from="1598531890075" duration="537000" />
+      <workItem from="1598531890075" duration="1353000" />
+      <workItem from="1598850551558" duration="2874000" />
+      <workItem from="1598880420125" duration="42000" />
+      <workItem from="1599210392066" duration="1477000" />
+      <workItem from="1599221548750" duration="5467000" />
+      <workItem from="1599265114376" duration="1296000" />
     </task>
+    <task id="LOCAL-00001" summary="UI界面适配全面屏，异形屏。&#10;增加商品详情限时秒杀活动价格展示。">
+      <created>1598532585009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598532585009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI界面适配全面屏，异形屏。&#10;增加商品详情限时秒杀活动价格展示。" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI界面适配全面屏，异形屏。&#10;增加商品详情限时秒杀活动价格展示。" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2512" y="0" key="CommitChangelistDialog2" timestamp="1598532575213">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2512" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598532575213" />
     <state x="2556" y="293" key="EditFileWatcherDialog" timestamp="1598082365620">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2556" y="293" key="EditFileWatcherDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598082365620" />
-    <state x="2660" y="261" key="FileChooserDialogImpl" timestamp="1598499024087">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1599265149979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599265149979" />
+    <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598499024087" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1598532587190">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598499024087" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598532587190" />
   </component>
 </project>

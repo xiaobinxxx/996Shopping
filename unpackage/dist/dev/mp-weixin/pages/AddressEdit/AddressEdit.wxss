@@ -227,8 +227,8 @@
           justify-content: center;
   width: 80%;
   height: 70rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
   border-radius: 70rpx;
   box-shadow: 0 10rpx 10rpx #fe3b0f;
 }

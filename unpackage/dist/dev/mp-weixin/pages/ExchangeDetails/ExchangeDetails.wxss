@@ -273,8 +273,8 @@
   height: 70rpx;
   font-size: 28rpx;
   color: #ffffff;
-  background: -webkit-linear-gradient(#fe3b0f, #fe3b0f);
-  background: linear-gradient(#fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(#fe3b0f, #fc603a);
+  background: linear-gradient(#fe3b0f, #fc603a);
   box-shadow: 0 2px 5px #fe3b0f;
   border-radius: 70rpx;
 }
@@ -473,8 +473,8 @@
   height: 60rpx;
   font-size: 28rpx;
   color: #ffffff;
-  background: -webkit-linear-gradient(#fe3b0f, #fe3b0f);
-  background: linear-gradient(#fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(#fe3b0f, #fc603a);
+  background: linear-gradient(#fe3b0f, #fc603a);
   box-shadow: 0 2px 5px #fe3b0f;
   border-radius: 70rpx;
 }

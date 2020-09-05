@@ -199,7 +199,7 @@
           align-items: center;
 }
 .cu-dialog .attr-size .attr-number .number text.data-v-18551bd8 {
-  font-size: 30rpx;
+  font-size: 26rpx;
   color: #222222;
 }
 .cu-dialog .attr-size .attr-number .number input.data-v-18551bd8 {
@@ -212,12 +212,13 @@
   -webkit-box-pack: center;
   -webkit-justify-content: center;
           justify-content: center;
-  width: 100rpx;
+  width: 80rpx;
   height: 40rpx;
   font-size: 24rpx;
   color: #222222;
   background-color: #EEEEEE;
   margin: 0 10rpx;
+  border-radius: 6rpx;
 }
 .cu-dialog .attr-btn.data-v-18551bd8 {
   position: absolute;

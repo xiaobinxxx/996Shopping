@@ -48,7 +48,7 @@
 					</view>
 				</view>
 			</view>
-			<view class="list" v-for="(item,index) in 5" :key="index">
+			<view class="list" v-for="(item,index) in 2" :key="index">
 				<view class="check">
 					<text class="iconfont icon-check"></text>
 				</view>
@@ -87,6 +87,35 @@
 				</view>
 			</view>
 		</view>
+    <!-- 购物车失效商品列表 -->
+    <view class="lose-efficacy-list">
+      <view class="lose-efficacy-title">
+        <view class="title">
+          <text>失效商品1件</text>
+        </view>
+        <view class="empty">
+          <text>清空失效商品</text>
+        </view>
+      </view>
+      <view class="list" v-for="(item,index) in 2" :key="index">
+        <view class="tag">
+          <text>失效</text>
+        </view>
+        <view class="goods" @click="onSkip('goods')">
+          <view class="pictrue">
+            <image :src="'/static/img/goods_thumb_0'+ (index+1) +'.png'" mode=""></image>
+          </view>
+          <view class="item">
+            <view class="title">
+              <text class="two-omit">薇妮(Viney)时尚包包女包牛皮单肩包女休闲百搭斜挎包韩版小方包潮(水电费枪色)</text>
+            </view>
+            <view class="explain">
+              <text>商品已不能购买，请联系客服进行沟通</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
     <!-- 为你推荐 -->
     <view class="recommend-info">
       <view class="recommend-title">

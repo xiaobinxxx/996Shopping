@@ -37,8 +37,8 @@
 .order-status.data-v-1a744c86 {
   width: 100%;
   height: 200rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
 }
 .order-status .status.data-v-1a744c86 {
   display: -webkit-box;

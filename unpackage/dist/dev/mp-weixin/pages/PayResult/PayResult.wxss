@@ -191,8 +191,8 @@
   font-size: 24rpx;
   color: #FFFFFF;
   padding: 4rpx 16rpx;
-  background: -webkit-linear-gradient(left, #fe3b0f, #fe3b0f);
-  background: linear-gradient(to right, #fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(left, #fe3b0f, #fc603a);
+  background: linear-gradient(to right, #fe3b0f, #fc603a);
   border-radius: 6rpx;
   margin-right: 10rpx;
 }

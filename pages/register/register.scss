@@ -1,0 +1,137 @@
+.page{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 240rpx;
+  image{
+    width: 160rpx;
+    height: 160rpx;
+  }
+}
+/* 填写 */
+.input-info{
+  padding: 0 6%;
+  .info{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 2rpx solid #f6f6f6;
+    input{
+      width: 70%;
+      height: 100%;
+      font-size: 26rpx;
+      color: #222222;
+    }
+    .more{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 30%;
+      height: 100%;
+      .iconfont{
+        font-size: 34rpx;
+      }
+      .mo{
+        font-size: 26rpx;
+        padding-left: 20rpx;
+        margin-left: 10rpx;
+        border-left: 2rpx solid #EEEEEE;
+      }
+    }
+  }
+}
+/* 按钮 */
+.btn-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 40rpx;
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 80rpx;
+    background: linear-gradient(to right,$base,$change-clor);
+    border-radius: 100rpx;
+    color: #FFFFFF;
+    font-size: 28rpx;
+    opacity: 0.4;
+  }
+}
+/* 操作 */
+.operation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6%;
+  height: 80rpx;
+  text{
+    font-size: 28rpx;
+    color: #555555;
+  }
+}
+
+/* 其他 */
+.other-ways{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80rpx;
+  margin-top: 100rpx;
+  text{
+    font-size: 28rpx;
+    color: #999999;
+  }
+}
+.other-ways::after{
+  content: "";
+  width: 36%;
+  height: 2rpx;
+  background-color: #EEEEEE;
+}
+.other-ways::before{
+  content: "";
+  width: 36%;
+  height: 2rpx;
+  background-color: #EEEEEE;
+}
+/* 登录方式 */
+.login-way{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200rpx;
+  .way{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    image{
+      width: 100rpx;
+      height: 100rpx;
+    }
+    text{
+      font-size: 28rpx;
+      color: #959595;
+      margin-top: 20rpx;
+    }
+  }
+}

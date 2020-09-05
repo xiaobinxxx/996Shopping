@@ -19,7 +19,7 @@
 				</view>
 			</view>
 			<!-- 用户信息 -->
-			<view class="user-info">
+			<view class="user-info" style="display: none">
 				<view class="portrait">
 					<image src="http://img2.imgtn.bdimg.com/it/u=1039075865,3371165857&fm=26&gp=0.jpg"></image>
 				</view>
@@ -33,6 +33,16 @@
 					</view>
 				</view>
 			</view>
+      <view class="user-info" @click="onUserInfo">
+        <view class="portrait">
+          <image src="http://img2.imgtn.bdimg.com/it/u=1039075865,3371165857&fm=26&gp=0.jpg"></image>
+        </view>
+        <view class="info">
+          <view class="nickname">
+            <text>登录/注册</text>
+          </view>
+        </view>
+      </view>
 			<!-- 关注区 -->
 			<view class="focus-area">
 				<view class="list" @click="onCollect('goods')">
@@ -539,6 +549,15 @@
             })
             break;
         }
+      },
+      /**
+       * 用户信息点击
+       * @param {Number} type
+       */
+      onUserInfo(){
+        uni.navigateTo({
+          url: '/pages/login/login'
+        })
       }
 		}
 	}

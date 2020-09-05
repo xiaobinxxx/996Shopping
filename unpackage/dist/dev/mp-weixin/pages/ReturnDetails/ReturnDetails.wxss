@@ -258,8 +258,8 @@
   height: 70rpx;
   font-size: 28rpx;
   color: #FFFFFF;
-  background: -webkit-linear-gradient(#fe3b0f, #fe3b0f);
-  background: linear-gradient(#fe3b0f, #fe3b0f);
+  background: -webkit-linear-gradient(#fe3b0f, #fc603a);
+  background: linear-gradient(#fe3b0f, #fc603a);
   border-radius: 100rpx;
 }
 /* 申请原因弹窗 */
