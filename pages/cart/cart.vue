@@ -9,6 +9,12 @@
 			</view>
 		</view>
 		<!-- 购物车列表 -->
+    <mescroll-body ref="mescrollRef"
+                   @down="downCallback"
+                   @up="upCallback"
+                   :down="downOption"
+                   :up="upOption"
+                   :top="0">
 		<view class="cart-list">
 			<view class="list">
 				<view class="check">
@@ -169,6 +175,7 @@
 				</view>
 			</view>
 		</view>
+    </mescroll-body>
 		<!-- tabbar -->
 		<TabBar :tabBarShow="3"></TabBar>
 	</view>
@@ -176,12 +183,25 @@
 
 <script>
 	import TabBar from '../../components/TabBar/TabBar.vue';
+  // 引入mescroll-mixins.js
+  import MescrollMixin from "@/components/mescroll-uni/mescroll-mixins.js";
 	export default {
+    mixins: [MescrollMixin], // 使用mixin
 		components:{
 			TabBar,
 		},
 		data() {
 			return {
+        mescroll: null, // mescroll实例对象 (此行可删,mixins已默认)
+        // 下拉刷新的配置(可选, 绝大部分情况无需配置)
+        downOption: {},
+        // 上拉加载的配置(可选, 绝大部分情况无需配置)
+        upOption: {
+          use: false,
+          toTop: {
+            src: '',
+          }
+        },
 				isEdit: false,
         goodsList:[
           {
@@ -332,6 +352,16 @@
       uni.hideTabBar()
 		},
     methods:{
+      /*下拉刷新的回调, 有三种处理方式:*/
+      downCallback(){
+        this.mescroll.endSuccess();
+      },
+      /*上拉加载的回调*/
+      upCallback(page) {
+        setTimeout(() =>{
+          this.mescroll.endByPage(10, 20);
+        },2000)
+      },
       /**
        * 跳转点击
        * @param {String} type 跳转类型

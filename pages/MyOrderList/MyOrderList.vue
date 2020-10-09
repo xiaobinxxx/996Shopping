@@ -69,8 +69,8 @@
 					<view class="btn">
 						<text>取消订单</text>
 					</view>
-					<view class="btn action">
-						<text>待付款</text>
+					<view class="btn action" @click.stop="onEvaluate">
+						<text>评价</text>
 					</view>
 				</view>
 			</view>
@@ -113,7 +113,15 @@
 				uni.navigateTo({
 					url: '/pages/OrderDetails/OrderDetails',
 				})
-			}
+			},
+      /**
+       * 评价点击
+       */
+      onEvaluate(){
+			  uni.navigateTo({
+          url: '/pages/MyEvaluatePush/MyEvaluatePush'
+        })
+      }
 		}
 	}
 </script>

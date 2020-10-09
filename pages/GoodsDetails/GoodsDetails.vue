@@ -227,7 +227,7 @@
     </view>
     <!-- 评价 -->
     <view class="evaluate-data" ref="evaluate">
-      <view class="title-more">
+      <view class="title-more" @click="onEvaluate">
         <view class="title">
           <text>评价</text>
           <text class="num">999+</text>
@@ -269,7 +269,7 @@
             </view>
           </view>
         </view>
-        <view class="look-all">
+        <view class="look-all" @click="onEvaluate">
           <text>查看全部评价</text>
         </view>
       </view>
@@ -457,7 +457,15 @@ export default {
         })
       }
 
-    }
+    },
+		/**
+		 * 评价点击
+		 */
+		onEvaluate(){
+			uni.navigateTo({
+				url: '/pages/GoodsEvaluateList/GoodsEvaluateList'
+			})
+		}
   }
 };
 </script>

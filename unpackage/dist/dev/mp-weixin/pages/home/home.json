@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "首页",
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "usingComponents": {
-    "classify-data": "/components/ClassifyData/ClassifyData",
-    "tab-bar": "/components/TabBar/TabBar"
-  }
-}

@@ -52,31 +52,39 @@
 		</view>
 		<!-- 商品列表 -->
 		<view class="goods-data">
-			<view class="goods-list">
-				<view :class="isList?'list-view':'list-li'" v-for="(item,index) in goodsList" @click="onGoodsList" :key="index">
-					<view class="thumb">
-						<image :src="item.img" mode="heightFix"></image>
-					</view>
-					<view class="item">
-						<view class="title">
-							<text class="two-omit">{{item.name}}</text>
+			<mescroll-body ref="mescrollRef"
+				@init="mescrollInit"
+				@down="downCallback"
+				@up="upCallback"
+				:down="downOption"
+				:up="upOption"
+				:top="0">
+				<view class="goods-list">
+					<view :class="isList?'list-view':'list-li'" v-for="(item,index) in goodsList" @click="onGoodsList" :key="index">
+						<view class="thumb">
+							<image :src="item.img" mode="heightFix"></image>
 						</view>
-						<view class="price">
-							<view class="retail-price">
-								<text class="min">￥</text>
-								<text class="max">{{item.price}}</text>
-								<view class="tag" v-if="item.is_goods === 1">
-									<text>抢购价</text>
-								</view>
+						<view class="item">
+							<view class="title">
+								<text class="two-omit">{{item.name}}</text>
 							</view>
-							<view class="vip-price">
-								<text class="min">￥</text>
-								<text class="max">{{item.vip_price}}</text>
+							<view class="price">
+								<view class="retail-price">
+									<text class="min">￥</text>
+									<text class="max">{{item.price}}</text>
+									<view class="tag" v-if="item.is_goods === 1">
+										<text>抢购价</text>
+									</view>
+								</view>
+								<view class="vip-price">
+									<text class="min">￥</text>
+									<text class="max">{{item.vip_price}}</text>
+								</view>
 							</view>
 						</view>
 					</view>
 				</view>
-			</view>
+			</mescroll-body>
 		</view>
 		<!-- 抽屉 -->
 		<view class="cu-modal drawer-modal justify-end" :class="{'show':isDrawer}" @click="isDrawer = false" style="position: absolute;">
@@ -121,9 +129,18 @@
 </template>
 
 <script>
+	// 引入mescroll-mixins.js
+	import MescrollMixin from "@/components/mescroll-uni/mescroll-mixins.js";
 	export default {
+		mixins: [MescrollMixin], // 使用mixin
 		data() {
 			return {
+				mescroll: null, // mescroll实例对象 (此行可删,mixins已默认)
+				// 下拉刷新的配置(可选, 绝大部分情况无需配置)
+				downOption: {},
+				// 上拉加载的配置(可选, 绝大部分情况无需配置)
+				upOption: {
+				},
 				// 列表视图切换
 				isList: true,
 				// 筛选弹窗
@@ -282,6 +299,16 @@
 			this.keyword = decodeURIComponent(params.keyword||'');
 		},
 		methods: {
+			/*下拉刷新的回调, 有三种处理方式:*/
+			downCallback(){
+				this.mescroll.endSuccess();
+			},
+			/*上拉加载的回调*/
+			upCallback(page) {
+				setTimeout(() =>{
+					this.mescroll.endByPage(10, 20);
+				},2000)
+			},
 			/**
 			 * 返回点击
 			 */

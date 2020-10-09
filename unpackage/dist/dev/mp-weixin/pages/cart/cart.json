@@ -1,7 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "购物车",
-  "usingComponents": {
-    "tab-bar": "/components/TabBar/TabBar"
-  }
-}

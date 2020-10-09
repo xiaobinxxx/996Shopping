@@ -23,7 +23,7 @@
 			</view>
 			<!-- 分类列表 -->
 			<view class="classify-list">
-				<view class="list" v-for="(item,index) in classList" 
+				<view class="list" v-for="(item,index) in classList"
 				:class="{'action':classifyShow==index}"
 				@click="onClassify(item,index)"
 				:key="index">
@@ -32,6 +32,12 @@
 				</view>
 			</view>
 		</view>
+    <mescroll-body ref="mescrollRef"
+                   @down="downCallback"
+                   @up="upCallback"
+                   :down="downOption"
+                   :up="upOption"
+                   :top="0">
 		<view class="main" v-show="classifyShow===0">
 			<!-- banner -->
 			<view class="banner">
@@ -46,7 +52,7 @@
 			<view class="menu-nav">
 				<scroll-view scroll-x @scroll="ScrollMenu" class="nav-list">
 					<view class="nav" ref="nav" :style="navList.length<=10?'flex-direction:row':''">
-						<view class="list" v-for="(item,index) in navList" 
+						<view class="list" v-for="(item,index) in navList"
 						@click="onSkip('menu')"
 						:key="item.id">
 							<image :src="'/static/nav/nav_ico'+(index+1)+'.png'" mode=""></image>
@@ -239,7 +245,8 @@
 				</view>
 			</view>
 		</view>
-		<ClassifyData v-show="classifyShow!=0"></ClassifyData>
+    </mescroll-body>
+    <ClassifyData v-show="classifyShow!=0"></ClassifyData>
 		<!-- tabbar -->
 		<TabBar :tabBarShow="0"></TabBar>
 	</view>
@@ -248,13 +255,23 @@
 <script>
 import TabBar from '../../components/TabBar/TabBar.vue';
 import ClassifyData from '../../components/ClassifyData/ClassifyData.vue';
+// 引入mescroll-mixins.js
+import MescrollMixin from "@/components/mescroll-uni/mescroll-mixins.js";
 export default {
+  mixins: [MescrollMixin], // 使用mixin
 	components:{
 		TabBar,
 		ClassifyData,
 		},
 	data(){
 		return{
+      mescroll: null, // mescroll实例对象 (此行可删,mixins已默认)
+      // 下拉刷新的配置(可选, 绝大部分情况无需配置)
+      downOption: {},
+      // 上拉加载的配置(可选, 绝大部分情况无需配置)
+      upOption: {
+        use: false
+      },
 			swiperList: [
 				{
 					id: 0,
@@ -506,7 +523,7 @@ export default {
 		// #endif
 	},
 	onLoad() {
-		
+
 	},
 	onPageScroll(e){
 		let scrollTop = e.scrollTop;
@@ -516,7 +533,20 @@ export default {
 			this.pageHeight = 500;
 		}
 	},
+  onReachBottom(){
+    console.log(12333);
+  },
 	methods:{
+    /*下拉刷新的回调, 有三种处理方式:*/
+    downCallback(){
+      this.mescroll.endSuccess();
+    },
+    /*上拉加载的回调*/
+    upCallback(page) {
+      setTimeout(() =>{
+        this.mescroll.endByPage(10, 20);
+      },2000)
+    },
 		/**
 		 * 菜单导航滚动
 		 */

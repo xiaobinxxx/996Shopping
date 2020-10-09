@@ -58,7 +58,9 @@
         ,{
             "path" : "pages/SearchGoodsList/SearchGoodsList",
             "style" : {
-            	"navigationStyle":"custom"
+            	"navigationStyle":"custom",
+							"backgroundColorTop":"#FFFFFF", // iOS下拉bounce回弹区域的颜色 (与down.bgColor同步)
+							"backgroundColorBottom":"#FFFFFF" // iOS上拉bounce回弹区域的颜色 (与up.bgColor同步)
             }
         }
         ,{
@@ -406,12 +408,27 @@
               "navigationBarBackgroundColor": "#FFFFFF"
             }
         }
+				,{
+					"path" : "pages/GoodsEvaluateList/GoodsEvaluateList",
+					"style" : {
+						"navigationBarTitleText": "商品评价",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+        }
+        ,{
+            "path" : "pages/MyEvaluatePush/MyEvaluatePush",
+            "style" : {
+            	"navigationBarTitleText": "评价商品",
+            	"navigationBarBackgroundColor": "#FFFFFF"
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "商城",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarBackgroundColor": "#f6f6f6",
+		"backgroundColor": "#f6f6f6",
+		"backgroundColorTop":"#FFFFFF"
 	},
 	"tabBar": {
 		"custom": true,

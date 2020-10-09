@@ -1,0 +1,196 @@
+.page{
+  padding-bottom: 50rpx;
+}
+.evaluate-goods{
+  padding: 0 30rpx;
+  background-color: #ffffff;
+  border-radius: 0 0 20rpx 20rpx;
+  .list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 160rpx;
+    .picture{
+      width: 120rpx;
+      height: 120rpx;
+      margin-right: 20rpx;
+      image{
+        width: 100%;
+        height: 100%;
+        border-radius: 10rpx;
+      }
+    }
+    .item{
+      height: 120rpx;
+      .title{
+        display: flex;
+        align-items: center;
+        height: 60rpx;
+        color: #222222;
+      }
+      .star-list{
+        display: flex;
+        align-items: center;
+        .star{
+          display: flex;
+          align-items: center;
+          text{
+            font-size: 38rpx;
+            margin-right: 10rpx;
+          }
+          .ac{
+            color: $base;
+          }
+        }
+        .hint{
+          display: flex;
+          align-items: center;
+          margin-left: 40rpx;
+          text{
+            font-size: 26rpx;
+            color: #222222;
+          }
+        }
+      }
+    }
+  }
+}
+/*填写*/
+.input-info{
+  padding: 0 30rpx;
+  margin: 30rpx auto;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  .input-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80rpx;
+    border-bottom: 1px solid #F6f6f6;
+    text{
+      font-size: 26rpx;
+      color: #222222;
+    }
+  }
+  .input-text{
+    width: 100%;
+    height: 280rpx;
+    padding: 20rpx 0;
+    textarea{
+      width: 100%;
+      height: 200rpx;
+      font-size: 24rpx;
+      color: #222222;
+    }
+    .record-text{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 100%;
+      height: 40rpx;
+      text{
+        font-size: 24rpx;
+        color: #999999;
+      }
+      .ac{
+        color: $base;
+      }
+    }
+  }
+  .anonymous{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80rpx;
+    text{
+      margin-left: 20rpx;
+      font-size: 26rpx;
+      color: #222222;
+    }
+  }
+}
+/*上传图片*/
+.upload-img{
+  padding: 0 30rpx;
+  margin: 30rpx auto;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  .img-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80rpx;
+    text{
+      font-size: 26rpx;
+      color: #222222;
+    }
+  }
+  .img-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200rpx;
+    .list{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 23%;
+      height: 160rpx;
+      margin-right: 2%;
+      image{
+        width: 160rpx;
+        height: 160rpx;
+        border-radius: 10rpx;
+      }
+      text{
+        position: absolute;
+        right: -10rpx;
+        top: -20rpx;
+        font-size: 34rpx;
+        color: #707070;
+      }
+    }
+    .list:nth-child(4n){
+      margin-right: 0;
+    }
+    .up-img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24%;
+      height: 160rpx;
+      box-shadow: 0 0 10rpx rgba(0,0,0,0.1);
+      border-radius: 10rpx;
+      margin-right: 2%;
+      image{
+        width: 60rpx;
+        height: 60rpx;
+      }
+    }
+  }
+}
+/*提交*/
+.submit-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100rpx;
+  margin-top: 100rpx;
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70rpx;
+    background: linear-gradient(to right,$base,$change-clor);
+    box-shadow: 0 0 10rpx $base;
+    border-radius: 80rpx;
+    text{
+      font-size: 28rpx;
+      color: #ffffff;
+    }
+  }
+}

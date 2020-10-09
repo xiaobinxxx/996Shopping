@@ -14,9 +14,15 @@
 			</view> -->
 		</view>
 		<!-- 文章数据 -->
+    <mescroll-body ref="mescrollRef"
+                   @down="downCallback"
+                   @up="upCallback"
+                   :down="downOption"
+                   :up="upOption"
+                   :top="0">
 		<view class="article-data">
 			<view class="article-list">
-				<view class="list" v-for="(item,index) in 8" 
+				<view class="list" v-for="(item,index) in 8"
 				@click="onArticle"
 				:key="index">
 					<view class="item">
@@ -40,6 +46,7 @@
 				</view>
 			</view>
 		</view>
+    </mescroll-body>
 		<!-- tabbar -->
 		<TabBar :tabBarShow="2"></TabBar>
 	</view>
@@ -47,19 +54,37 @@
 
 <script>
 	import TabBar from '../../components/TabBar/TabBar.vue';
+  // 引入mescroll-mixins.js
+  import MescrollMixin from "@/components/mescroll-uni/mescroll-mixins.js";
 	export default {
+    mixins: [MescrollMixin], // 使用mixin
 		components:{
 			TabBar,
 		},
 		data() {
 			return {
-				
+        mescroll: null, // mescroll实例对象 (此行可删,mixins已默认)
+        // 下拉刷新的配置(可选, 绝大部分情况无需配置)
+        downOption: {},
+        // 上拉加载的配置(可选, 绝大部分情况无需配置)
+        upOption: {
+        },
 			};
 		},
 		onReady() {
 			uni.hideTabBar();
 		},
 		methods:{
+      /*下拉刷新的回调, 有三种处理方式:*/
+      downCallback(){
+        this.mescroll.endSuccess();
+      },
+      /*上拉加载的回调*/
+      upCallback(page) {
+        setTimeout(() =>{
+          this.mescroll.endByPage(10, 20);
+        },2000)
+      },
 			/**
 			 * 文章点击
 			 */
